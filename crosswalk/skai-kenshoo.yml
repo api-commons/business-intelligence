@@ -1,0 +1,16 @@
+provider: skai-kenshoo
+apis_io: https://apis.io/providers/skai-kenshoo/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - data_sources
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/skai-kenshoo-api-openapi.yml#POST /api/v1/incrementality/agencies/{agency_id}/data_sources
+    - openapi/_original/skai-kenshoo-api-openapi.yml#POST /api/v2/incrementality/agencies/{agency_id}/data_sources
+    - openapi/_original/skai-kenshoo-api-openapi.yml#PUT /api/v1/incrementality/agencies/{agency_id}/data_sources/{data_source_id}
+    - openapi/_original/skai-kenshoo-api-openapi.yml#PUT /api/v2/incrementality/agencies/{agency_id}/data_sources/{data_source_id}
+    - openapi/_original/skai-kenshoo-openapi-original.yml#POST /api/v1/incrementality/agencies/{agency_id}/data_sources

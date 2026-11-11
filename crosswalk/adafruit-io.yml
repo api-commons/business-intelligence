@@ -1,0 +1,26 @@
+provider: adafruit-io
+apis_io: https://apis.io/providers/adafruit-io/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: name
+      description: description
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#DELETE /{username}/dashboards/{id}
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/dashboards
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/dashboards/{id}
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#PATCH /{username}/dashboards/{id}
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#POST /{username}/dashboards
+  chart:
+    path_segment:
+    - chart
+    properties:
+      parameters: parameters
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/feeds/{feed_key}/data/chart

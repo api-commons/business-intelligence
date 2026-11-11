@@ -1,0 +1,1369 @@
+[
+ {
+  "slug": "activtrak",
+  "specs": [
+   "openapi/_original/activtrak-openapi-original.yaml"
+  ]
+ },
+ {
+  "slug": "adafruit-io",
+  "specs": [
+   "openapi/_original/adafruit-io-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "adaptive-security",
+  "specs": [
+   "openapi/_original/adaptive-security-openapi.json"
+  ]
+ },
+ {
+  "slug": "admob",
+  "specs": [
+   "openapi/_original/admob-api-v1-openapi.yml",
+   "openapi/_original/admob-api-v1beta-openapi.yml"
+  ]
+ },
+ {
+  "slug": "adobe-analytics",
+  "specs": [
+   "openapi/_original/adobe-analytics-api-openapi.yml",
+   "openapi/_original/adobe-analytics-bulk-data-insertion-api-openapi.yml",
+   "openapi/_original/adobe-analytics-classification-api-openapi.json",
+   "openapi/_original/adobe-analytics-cloud-locations-api-openapi.json",
+   "openapi/_original/adobe-analytics-component-migration-api-openapi.json",
+   "openapi/_original/adobe-analytics-data-feeds-api-openapi.json",
+   "openapi/_original/adobe-analytics-data-repair-api-openapi.yml",
+   "openapi/_original/adobe-analytics-data-sources-api-openapi.json",
+   "openapi/_original/adobe-analytics-data-warehouse-api-openapi.json",
+   "openapi/_original/adobe-analytics-marketing-channels-api-openapi.json",
+   "openapi/_original/adobe-analytics-report-suites-admin-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "agentum-lat",
+  "specs": [
+   "openapi/_original/agentum-lat-apis-brasil-openapi.json",
+   "openapi/_original/agentum-lat-business-openapi.json"
+  ]
+ },
+ {
+  "slug": "agora-data",
+  "specs": [
+   "openapi/_original/agora-data-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "aifordatabase",
+  "specs": [
+   "openapi/_original/aifordatabase-openapi.json",
+   "openapi/_original/aifordatabase-openapi.yml"
+  ]
+ },
+ {
+  "slug": "allium",
+  "specs": [
+   "openapi/_original/allium-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "amazon-glue-databrew",
+  "specs": [
+   "openapi/_original/amazon-glue-databrew-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "amazon-lookout-for-metrics",
+  "specs": [
+   "openapi/_original/amazon-lookout-for-metrics-openapi-original.yaml"
+  ]
+ },
+ {
+  "slug": "amazon-managed-grafana",
+  "specs": [
+   "openapi/_original/amazon-managed-grafana-openapi-original.yaml"
+  ]
+ },
+ {
+  "slug": "amazon-quicksight",
+  "specs": [
+   "openapi/_original/amazon-quicksight-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amex-gbt",
+  "specs": [
+   "openapi/_original/amex-gbt-approval-customisation-spi-openapi.json",
+   "openapi/_original/amex-gbt-approval-workflow-api-openapi.json",
+   "openapi/_original/amex-gbt-booking-api-openapi.json",
+   "openapi/_original/amex-gbt-cancellation-deletion-api-openapi.json",
+   "openapi/_original/amex-gbt-company-cdf-api-openapi.json",
+   "openapi/_original/amex-gbt-company-info-api-openapi.json",
+   "openapi/_original/amex-gbt-duty-of-care-api-openapi.json",
+   "openapi/_original/amex-gbt-expense-spi-openapi.json",
+   "openapi/_original/amex-gbt-receipt-api-openapi.json",
+   "openapi/_original/amex-gbt-reporting-api-openapi.json",
+   "openapi/_original/amex-gbt-service-bi-openapi.json",
+   "openapi/_original/amex-gbt-service-company-openapi.json",
+   "openapi/_original/amex-gbt-service-dutyofcare-openapi.json",
+   "openapi/_original/amex-gbt-service-openconnect-openapi.json",
+   "openapi/_original/amex-gbt-sso-context-api-openapi.json",
+   "openapi/_original/amex-gbt-user-sync-api-openapi.json",
+   "openapi/_original/amex-gbt-validation-spi-openapi.json"
+  ]
+ },
+ {
+  "slug": "arduino",
+  "specs": [
+   "openapi/_original/arduino-iot-cloud-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "awin-affiliate",
+  "specs": [
+   "openapi/_original/awin-affiliate-openapi.yml"
+  ]
+ },
+ {
+  "slug": "benchmark-email",
+  "specs": [
+   "openapi/_original/benchmark-email-api-openapi.json",
+   "openapi/_original/benchmark-email-benchmark-email-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bidmachine-io",
+  "specs": [
+   "openapi/_original/bidmachine-io-placement-management-api-operations.json",
+   "openapi/_original/bidmachine-io-reporting-api-operations.json"
+  ]
+ },
+ {
+  "slug": "bigdata",
+  "specs": [
+   "openapi/_original/bigdata-structured_data.json"
+  ]
+ },
+ {
+  "slug": "bizapi",
+  "specs": [
+   "openapi/_original/bizapi-business-intelligence-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bloomberg",
+  "specs": [
+   "openapi/_original/blpapi-core.yml"
+  ]
+ },
+ {
+  "slug": "chadwin",
+  "specs": [
+   "openapi/_original/chadwin-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "channel99",
+  "specs": [
+   "openapi/_original/channel99-pulsar-openapi.json"
+  ]
+ },
+ {
+  "slug": "choozle",
+  "specs": [
+   "openapi/_original/choozle-apidoc-api_data.json",
+   "openapi/_original/choozle-apidoc-api_project.json",
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "cisco-control-hub",
+  "specs": [
+   "openapi/_original/cisco-control-hub-openapi.yml"
+  ]
+ },
+ {
+  "slug": "clarifymedical",
+  "specs": [
+   "openapi/_original/clarifymedical-openapi.json"
+  ]
+ },
+ {
+  "slug": "clockify",
+  "specs": [
+   "openapi/_original/clockify-openapi.json"
+  ]
+ },
+ {
+  "slug": "cloud-academy",
+  "specs": [
+   "openapi/_original/cloud-academy-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "cloudkitchens",
+  "specs": [
+   "openapi/_original/cloudkitchens-public-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cloudwatch",
+  "specs": [
+   "openapi/_original/cloudwatch-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cohesity",
+  "specs": [
+   "openapi/_original/cohesity-cluster-v1-openapi-original.yml",
+   "openapi/_original/cohesity-cluster-v1-openapi.yml",
+   "openapi/_original/cohesity-cluster-v2-openapi-original.yml",
+   "openapi/_original/cohesity-cluster-v2-openapi.yml",
+   "openapi/_original/cohesity-helios-reporting-openapi-original.yml",
+   "openapi/_original/cohesity-helios-reporting-openapi.yml",
+   "openapi/_original/cohesity-site-continuity-openapi-original.yml",
+   "openapi/_original/cohesity-site-continuity-openapi.yml"
+  ]
+ },
+ {
+  "slug": "concur",
+  "specs": [
+   "openapi/_original/sap-concur-allocations-api-openapi.yml",
+   "openapi/_original/sap-concur-comments-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-allocations-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-expense-entries-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-expense-reports-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-group-configurations-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-payment-batches-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-quick-expenses-api-openapi.yml",
+   "openapi/_original/sap-concur-expense-receipt-images-api-openapi.yml",
+   "openapi/_original/sap-concur-expenses-api-openapi.yml",
+   "openapi/_original/sap-concur-reports-api-openapi.yml",
+   "openapi/_original/sap-concur-workflows-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "constant-contact",
+  "specs": [
+   "openapi/_original/constant-contact-v3-openapi.yml"
+  ]
+ },
+ {
+  "slug": "creatoriq",
+  "specs": [
+   "openapi/_original/creatoriq-BrandSafety-brandsafety-openapi-original.yaml",
+   "openapi/_original/creatoriq-brand-safety-draft-openapi.yml",
+   "openapi/_original/creatoriq-brand-safety-openapi-original.yaml",
+   "openapi/_original/creatoriq-brand-safety-openapi.yml",
+   "openapi/_original/creatoriq-campaigns-openapi-original.yaml",
+   "openapi/_original/creatoriq-campaigns-openapi.yml",
+   "openapi/_original/creatoriq-conversion-metrics-openapi-original.yaml",
+   "openapi/_original/creatoriq-conversion-metrics-openapi.yml",
+   "openapi/_original/creatoriq-ecommerce-openapi-original.yaml",
+   "openapi/_original/creatoriq-ecommerce-openapi.yml",
+   "openapi/_original/creatoriq-link-tracking-openapi-original.yaml",
+   "openapi/_original/creatoriq-link-tracking-openapi.yml",
+   "openapi/_original/creatoriq-lists-openapi-original.yaml",
+   "openapi/_original/creatoriq-lists-openapi.yml",
+   "openapi/_original/creatoriq-notes-openapi-original.yaml",
+   "openapi/_original/creatoriq-notes-openapi.yml",
+   "openapi/_original/creatoriq-onesheets-openapi-original.yaml",
+   "openapi/_original/creatoriq-onesheets-openapi.yml",
+   "openapi/_original/creatoriq-payments-openapi-original.yaml",
+   "openapi/_original/creatoriq-payments-openapi.yml",
+   "openapi/_original/creatoriq-publishers-openapi-original.yaml",
+   "openapi/_original/creatoriq-publishers-openapi.yml",
+   "openapi/_original/creatoriq-reports-openapi-original.yaml",
+   "openapi/_original/creatoriq-reports-openapi.yml",
+   "openapi/_original/creatoriq-socials-openapi-original.yaml",
+   "openapi/_original/creatoriq-socials-openapi.yml",
+   "openapi/_original/creatoriq-users-openapi-original.yaml",
+   "openapi/_original/creatoriq-v1-divisions-openapi-original.yaml",
+   "openapi/_original/creatoriq-v1-divisions-openapi.yml",
+   "openapi/_original/creatoriq-v2-campaigns-openapi-original.yaml",
+   "openapi/_original/creatoriq-v2-campaigns-openapi.yml",
+   "openapi/_original/creatoriq-v2-publishers-openapi-original.yaml",
+   "openapi/_original/creatoriq-v2-publishers-openapi.yml",
+   "openapi/_original/creatoriq-webhooks-openapi-original.yaml",
+   "openapi/_original/creatoriq-webhooks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "criteo",
+  "specs": [
+   "openapi/_original/criteo-commerce-grid-2026-01-openapi-original.json",
+   "openapi/_original/criteo-commerce-grid-api-openapi.yml",
+   "openapi/_original/criteo-marketing-solutions-2026-07-openapi-original.json",
+   "openapi/_original/criteo-marketing-solutions-api-openapi.yml",
+   "openapi/_original/criteo-retail-media-2026-07-openapi-original.json",
+   "openapi/_original/criteo-retail-media-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cuebiq",
+  "specs": [
+   "openapi/_original/cuebiq-openapi.json"
+  ]
+ },
+ {
+  "slug": "databook",
+  "specs": [
+   "openapi/_original/databook-openapi.json"
+  ]
+ },
+ {
+  "slug": "databricks",
+  "specs": [
+   "openapi/_original/databricks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "datadog",
+  "specs": [
+   "openapi/_original/datadog-api-openapi.yml",
+   "openapi/_original/datadog-events-openapi.yml",
+   "openapi/_original/datadog-incidents-openapi.yml",
+   "openapi/_original/datadog-logs-openapi.yml",
+   "openapi/_original/datadog-metrics-openapi.yml",
+   "openapi/_original/datadog-monitors-openapi.yml"
+  ]
+ },
+ {
+  "slug": "datarails",
+  "specs": [
+   "openapi/_original/datarails-financeos-mcp-openapi.json"
+  ]
+ },
+ {
+  "slug": "dealogic",
+  "specs": [
+   "openapi/_original/dealogic-analytics-bank-openapi.json",
+   "openapi/_original/dealogic-analytics-bank-openapi_2.json",
+   "openapi/_original/dealogic-analytics-company-openapi.json",
+   "openapi/_original/dealogic-analytics-company-openapi_2.json",
+   "openapi/_original/dealogic-analytics-spac-v1-openapi.json",
+   "openapi/_original/dealogic-analytics-spac-v1-openapi_2.json",
+   "openapi/_original/dealogic-analytics-spac-v2-openapi.json",
+   "openapi/_original/dealogic-analytics-spac-v2-openapi_2.json",
+   "openapi/_original/dealogic-analytics-sponsor-openapi.json",
+   "openapi/_original/dealogic-analytics-sponsor-openapi_2.json",
+   "openapi/_original/dealogic-cortex-reporting-openapi.json",
+   "openapi/_original/dealogic-cortex-reporting-openapi_2.json",
+   "openapi/_original/dealogic-iona-profiles-openapi.json",
+   "openapi/_original/dealogic-iona-profiles-openapi_2.json",
+   "openapi/_original/dealogic-reporting-openapi.json",
+   "openapi/_original/dealogic-reporting-openapi_2.json"
+  ]
+ },
+ {
+  "slug": "deluxe",
+  "specs": [
+   "openapi/_original/deluxe-postman-sandbox-openapi.yml"
+  ]
+ },
+ {
+  "slug": "disconetwork",
+  "specs": [
+   "openapi/_original/disconetwork-partner-api.yml",
+   "openapi/_original/disconetwork-reporting-api-v1.yml",
+   "openapi/_original/disconetwork-reporting-api-v2.yml"
+  ]
+ },
+ {
+  "slug": "domob",
+  "specs": [
+   "openapi/_original/domob-media-data-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dune-analytics",
+  "specs": [
+   "openapi/_original/dune-analytics-openapi.json"
+  ]
+ },
+ {
+  "slug": "eagleview",
+  "specs": [
+   "openapi/_original/measurement-orders-v1-openapi.json"
+  ]
+ },
+ {
+  "slug": "editalmd",
+  "specs": [
+   "openapi/_original/editalmd-openapi.json"
+  ]
+ },
+ {
+  "slug": "eloqua",
+  "specs": [
+   "openapi/_original/eloqua-bulk-openapi.yml",
+   "openapi/_original/eloqua-published-swagger.json",
+   "openapi/_original/eloqua-rest-openapi.yml"
+  ]
+ },
+ {
+  "slug": "emailoctopus",
+  "specs": [
+   "openapi/_original/emailoctopus-openapi.yml",
+   "openapi/_original/emailoctopus-v2-openapi.json"
+  ]
+ },
+ {
+  "slug": "eventscom",
+  "specs": [
+   "openapi/_original/eventscom-datagol-ai-openapi.json",
+   "openapi/_original/eventscom-datagol-ai-openapi.yml",
+   "openapi/_original/eventscom-datagol-platform-openapi.json",
+   "openapi/_original/eventscom-datagol-platform-openapi.yml",
+   "openapi/_original/eventscom-datagol-python-agent-openapi.json",
+   "openapi/_original/eventscom-datagol-python-agent-openapi.yml"
+  ]
+ },
+ {
+  "slug": "evidence-dev",
+  "specs": [
+   "openapi/_original/evidence-dev-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ezoic",
+  "specs": [
+   "openapi/_original/ezoic-big-data-analytics-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "factiva",
+  "specs": [
+   "openapi/_original/factiva-company-news-radar-api-openapi.json",
+   "openapi/_original/factiva-content-api-swagger.json",
+   "openapi/_original/factiva-newsletters-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "fathom",
+  "specs": [
+   "openapi/_original/fathom-openapi.json"
+  ]
+ },
+ {
+  "slug": "fever",
+  "specs": [
+   "openapi/_original/fever-reporting-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "formlabs",
+  "specs": [
+   "openapi/_original/formlabs-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fundz",
+  "specs": [
+   "openapi/_original/fundz-openapi.json"
+  ]
+ },
+ {
+  "slug": "geckoboard",
+  "specs": [
+   "openapi/_original/geckoboard-openapi.yml"
+  ]
+ },
+ {
+  "slug": "golden",
+  "specs": [
+   "openapi/_original/golden-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "gooddata",
+  "specs": [
+   "openapi/_original/gooddata-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-admob",
+  "specs": [
+   "openapi/_original/google-admob-api-v1-openapi.yml",
+   "openapi/_original/google-admob-api-v1beta-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-analytics",
+  "specs": [
+   "openapi/_original/google-analytics-admin-api.yaml",
+   "openapi/_original/google-analytics-data-api.yaml",
+   "openapi/_original/google-analytics-management-api-v3.yaml",
+   "openapi/_original/google-analytics-measurement-protocol.yaml",
+   "openapi/_original/google-analytics-reporting-api-v4.yaml",
+   "openapi/_original/google-analytics-user-deletion-api.yaml"
+  ]
+ },
+ {
+  "slug": "google-analytics-4",
+  "specs": [
+   "openapi/_original/google-analytics-4-admin-v1alpha-discovery.json",
+   "openapi/_original/google-analytics-4-admin-v1alpha-openapi.yml",
+   "openapi/_original/google-analytics-4-admin-v1beta-discovery.json",
+   "openapi/_original/google-analytics-4-admin-v1beta-openapi.yml",
+   "openapi/_original/google-analytics-4-data-v1alpha-discovery.json",
+   "openapi/_original/google-analytics-4-data-v1alpha-openapi.yml",
+   "openapi/_original/google-analytics-4-data-v1beta-discovery.json",
+   "openapi/_original/google-analytics-4-data-v1beta-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-campaign-manager",
+  "specs": [
+   "openapi/_original/google-campaign-manager-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-cloud",
+  "specs": [
+   "openapi/_original/google-cloud-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-cloud-monitoring",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-cloud-platform-gcp",
+  "specs": [
+   "openapi/_original/google-cloud-platform-gcp-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-data-studio",
+  "specs": [
+   "openapi/_original/google-data-studio-api-openapi.yml",
+   "openapi/_original/google-data-studio-linking-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-looker",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-looker-studio",
+  "specs": [
+   "openapi/_original/google-looker-studio-openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-play-console",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "google-search-ads-360",
+  "specs": [
+   "openapi/_original/openapi.yml"
+  ]
+ },
+ {
+  "slug": "grafana",
+  "specs": [
+   "openapi/_original/grafana-api.yml",
+   "openapi/_original/grafana-openapi.yml"
+  ]
+ },
+ {
+  "slug": "grafana-com",
+  "specs": [
+   "openapi/_original/grafana-com-openapi.json"
+  ]
+ },
+ {
+  "slug": "graphy",
+  "specs": [
+   "openapi/_original/graphy-agents-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "greenspark",
+  "specs": [
+   "openapi/_original/greenspark-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hex",
+  "specs": [
+   "openapi/_original/hex-openapi.json"
+  ]
+ },
+ {
+  "slug": "holistics",
+  "specs": [
+   "openapi/_original/holistics-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hyperdx",
+  "specs": [
+   "openapi/_original/hyperdx-external-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "ibisworld",
+  "specs": [
+   "openapi/_original/ibisworld-openapi.yml"
+  ]
+ },
+ {
+  "slug": "improvado",
+  "specs": [
+   "openapi/_original/improvado-openapi.yml"
+  ]
+ },
+ {
+  "slug": "insightera",
+  "specs": [
+   "openapi/_original/insightera-nlp-platform-openapi.json",
+   "openapi/_original/insightera-nlp-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ispring",
+  "specs": [
+   "openapi/_original/openapi.yaml"
+  ]
+ },
+ {
+  "slug": "jeeng",
+  "specs": [
+   "openapi/_original/jeeng-advertisers-openapi.yml",
+   "openapi/_original/jeeng-advertisers.json",
+   "openapi/_original/jeeng-authentication-openapi.yml",
+   "openapi/_original/jeeng-authentication.json",
+   "openapi/_original/jeeng-publishers-openapi.yml",
+   "openapi/_original/jeeng-publishers.json"
+  ]
+ },
+ {
+  "slug": "keen",
+  "specs": [
+   "openapi/_original/keen-data-extraction-api-openapi.yml",
+   "openapi/_original/keen-event-collection-api-openapi.yml",
+   "openapi/_original/keen-query-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kevel",
+  "specs": [
+   "openapi/_original/kevel-openapi.json"
+  ]
+ },
+ {
+  "slug": "kibana",
+  "specs": [
+   "openapi/_original/kibana-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "knowi",
+  "specs": [
+   "openapi/_original/knowi-management-api-openapi.yml",
+   "openapi/_original/knowi-openapi.json",
+   "openapi/_original/knowi-push-data-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "later",
+  "specs": [
+   "openapi/_original/later-influence-api-openapi-original.json",
+   "openapi/_original/later-influence-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "lightdash",
+  "specs": [
+   "openapi/_original/lightdash-openapi.json"
+  ]
+ },
+ {
+  "slug": "lighthouse-travel",
+  "specs": [
+   "openapi/_original/lighthouse-travel-integration-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "looker",
+  "specs": [
+   "openapi/_original/looker-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "looker-studio",
+  "specs": [
+   "openapi/_original/looker-studio-api-openapi.yml",
+   "openapi/_original/looker-studio-community-connector-api-openapi.yml",
+   "openapi/_original/looker-studio-community-visualization-api-openapi.yml",
+   "openapi/_original/looker-studio-embedding-api-openapi.yml",
+   "openapi/_original/looker-studio-linking-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "loopme",
+  "specs": [
+   "openapi/_original/loopme-reporting-openapi.yml",
+   "openapi/_original/loopme-s2s-openapi.yml"
+  ]
+ },
+ {
+  "slug": "losant",
+  "specs": [
+   "openapi/_original/losant-platform-api-bravado.json"
+  ]
+ },
+ {
+  "slug": "marginedge",
+  "specs": [
+   "openapi/_original/marginedge-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mattermark",
+  "specs": [
+   "openapi/_original/mattermark-rest-api-openapi.yml",
+   "openapi/_original/mattermark-swagger.yaml"
+  ]
+ },
+ {
+  "slug": "mavenlink",
+  "specs": [
+   "openapi/_original/mavenlink-openapi-original.yml",
+   "openapi/_original/mavenlink-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mavrck",
+  "specs": [
+   "openapi/_original/mavrck-openapi.json",
+   "openapi/_original/mavrck-reporting-api.json",
+   "openapi/_original/mavrck-workflow-stage-change-event-webhook-openapi.json"
+  ]
+ },
+ {
+  "slug": "mediamath",
+  "specs": [
+   "openapi/_original/campaigns-api-openapi.yaml",
+   "openapi/_original/mediamath-audience-segments-api-openapi.json",
+   "openapi/_original/mediamath-audience-segments-api-openapi.yml",
+   "openapi/_original/mediamath-bof-config-api-openapi.json",
+   "openapi/_original/mediamath-bof-config-api-openapi.yml",
+   "openapi/_original/mediamath-byoa-api-openapi.json",
+   "openapi/_original/mediamath-byoa-api-openapi.yml",
+   "openapi/_original/mediamath-component-creatives-api-openapi.json",
+   "openapi/_original/mediamath-marketplaces-api-v2-openapi.json",
+   "openapi/_original/mediamath-marketplaces-api-v2-openapi.yml",
+   "openapi/_original/mediamath-reporting-api-v1-openapi.json",
+   "openapi/_original/mediamath-reporting-api-v1-openapi.yml",
+   "openapi/_original/mediamath-video-creatives-api-openapi.json",
+   "openapi/_original/mediamath-video-creatives-api-openapi.yml",
+   "openapi/_original/reporting-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "metabase",
+  "specs": [
+   "openapi/_original/metabase-openapi.yml"
+  ]
+ },
+ {
+  "slug": "microsoft-excel-advanced",
+  "specs": [
+   "openapi/_original/microsoft-excel-advanced-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mikmak",
+  "specs": [
+   "openapi/_original/mikmak-commerce-api-openapi.json",
+   "openapi/_original/mikmak-commerce-api-openapi.yml",
+   "openapi/_original/mikmak-insights-api-openapi.json",
+   "openapi/_original/mikmak-insights-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "minubo",
+  "specs": [
+   "openapi/_original/minubo-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "mode",
+  "specs": [
+   "openapi/_original/mode-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "moloco",
+  "specs": [
+   "openapi/_original/mcm-decision-api.json",
+   "openapi/_original/mcm-event-api.json",
+   "openapi/_original/mcm-management-api.json",
+   "openapi/_original/mcm-webhooks.openapi.json",
+   "openapi/_original/moloco-ads-campaign-management-api.json",
+   "openapi/_original/moloco-ads-campaign-management-openapi.yml",
+   "openapi/_original/moloco-cloud-auth-api.json",
+   "openapi/_original/moloco-cloud-auth-openapi.yml",
+   "openapi/_original/moloco-commerce-media-decision-openapi.yml",
+   "openapi/_original/moloco-commerce-media-event-openapi.yml",
+   "openapi/_original/moloco-commerce-media-management-openapi.yml"
+  ]
+ },
+ {
+  "slug": "neighbor",
+  "specs": [
+   "openapi/_original/neighbor-openapi.yml"
+  ]
+ },
+ {
+  "slug": "observeai",
+  "specs": [
+   "openapi/_original/observeai-reporting-apis-openapi.yml"
+  ]
+ },
+ {
+  "slug": "omni",
+  "specs": [
+   "openapi/_original/omni-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "opera",
+  "specs": [
+   "openapi/_original/opera-dsp-report-api-openapi.yml",
+   "openapi/_original/opera-file-upload-api-openapi.yml",
+   "openapi/_original/opera-publisher-report-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "optimyzee",
+  "specs": [
+   "openapi/_original/optimyzee-openapi.json",
+   "openapi/_original/optimyzee-openapi.yml"
+  ]
+ },
+ {
+  "slug": "oracle-essbase",
+  "specs": [
+   "openapi/_original/oracle-essbase-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "orion-advisor-solutions",
+  "specs": [
+   "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json"
+  ]
+ },
+ {
+  "slug": "palantir",
+  "specs": [
+   "openapi/_original/palantir-openapi.yml"
+  ]
+ },
+ {
+  "slug": "pdfgeneratorapi",
+  "specs": [
+   "openapi/_original/pdfgeneratorapi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "perses",
+  "specs": [
+   "openapi/_original/perses-openapi.yml"
+  ]
+ },
+ {
+  "slug": "power-bi",
+  "specs": [
+   "openapi/_original/power-bi-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "power-query",
+  "specs": [
+   "openapi/_original/power-query-fabric-common-definitions.json",
+   "openapi/_original/power-query-fabric-dataflow-definitions.json",
+   "openapi/_original/power-query-fabric-dataflow-swagger.json"
+  ]
+ },
+ {
+  "slug": "preset",
+  "specs": [
+   "openapi/_original/preset-openapi.yml"
+  ]
+ },
+ {
+  "slug": "qlik-sense",
+  "specs": [
+   "openapi/_original/qlik-sense-cloud-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "qlik-sense-enterprise",
+  "specs": [
+   "openapi/_original/qlik-sense-enterprise-about-service-openapi.yml",
+   "openapi/_original/qlik-sense-enterprise-data-connection-openapi.yml",
+   "openapi/_original/qlik-sense-enterprise-licenses-openapi.yml",
+   "openapi/_original/qlik-sense-enterprise-odag-service-openapi.yml",
+   "openapi/_original/qlik-sense-enterprise-proxy-service-openapi.yml",
+   "openapi/_original/qlik-sense-enterprise-repository-service-openapi.yml"
+  ]
+ },
+ {
+  "slug": "qliksense",
+  "specs": [
+   "openapi/_original/qliksense-analytics-apps.json",
+   "openapi/_original/qliksense-analytics-change-stores.json",
+   "openapi/_original/qliksense-analytics-discovery-agent-adaptive-cards.json",
+   "openapi/_original/qliksense-analytics-odag-apps.json",
+   "openapi/_original/qliksense-analytics-odag-links.json",
+   "openapi/_original/qliksense-analytics-odag-requests.json",
+   "openapi/_original/qliksense-analytics-odag-settings.json",
+   "openapi/_original/qliksense-api-keys.json",
+   "openapi/_original/qliksense-apps.json",
+   "openapi/_original/qliksense-assistants.json",
+   "openapi/_original/qliksense-audits.json",
+   "openapi/_original/qliksense-automation-connections.json",
+   "openapi/_original/qliksense-automation-connectors.json",
+   "openapi/_original/qliksense-automations.json",
+   "openapi/_original/qliksense-automl-deployments.json",
+   "openapi/_original/qliksense-automl-predictions.json",
+   "openapi/_original/qliksense-banners.json",
+   "openapi/_original/qliksense-brands.json",
+   "openapi/_original/qliksense-collections.json",
+   "openapi/_original/qliksense-conditions.json",
+   "openapi/_original/qliksense-consumption.json",
+   "openapi/_original/qliksense-core-auth-settings.json",
+   "openapi/_original/qliksense-core-ip-policies.json",
+   "openapi/_original/qliksense-csp-origins.json",
+   "openapi/_original/qliksense-csrf-token.json",
+   "openapi/_original/qliksense-data-alerts.json",
+   "openapi/_original/qliksense-data-assets.json",
+   "openapi/_original/qliksense-data-connections.json",
+   "openapi/_original/qliksense-data-credentials.json",
+   "openapi/_original/qliksense-data-files.json",
+   "openapi/_original/qliksense-data-governance-data-products.json",
+   "openapi/_original/qliksense-data-governance-data-qualities.json",
+   "openapi/_original/qliksense-data-governance-trust-scores.json",
+   "openapi/_original/qliksense-data-qualities.json",
+   "openapi/_original/qliksense-data-sets.json",
+   "openapi/_original/qliksense-data-sources.json",
+   "openapi/_original/qliksense-data-stores.json",
+   "openapi/_original/qliksense-di-projects.json",
+   "openapi/_original/qliksense-direct-access-agents.json",
+   "openapi/_original/qliksense-encryption.json",
+   "openapi/_original/qliksense-extensions.json",
+   "openapi/_original/qliksense-glossaries.json",
+   "openapi/_original/qliksense-groups.json",
+   "openapi/_original/qliksense-identity-providers.json",
+   "openapi/_original/qliksense-items.json",
+   "openapi/_original/qliksense-knowledgebases.json",
+   "openapi/_original/qliksense-licenses.json",
+   "openapi/_original/qliksense-lineage-graphs.json",
+   "openapi/_original/qliksense-login.json",
+   "openapi/_original/qliksense-ml.json",
+   "openapi/_original/qliksense-notes.json",
+   "openapi/_original/qliksense-notifications.json",
+   "openapi/_original/qliksense-oauth-clients.json",
+   "openapi/_original/qliksense-oauth-tokens.json",
+   "openapi/_original/qliksense-questions.json",
+   "openapi/_original/qliksense-quotas.json",
+   "openapi/_original/qliksense-reload-tasks.json",
+   "openapi/_original/qliksense-reloads.json",
+   "openapi/_original/qliksense-report-templates.json",
+   "openapi/_original/qliksense-reports.json",
+   "openapi/_original/qliksense-roles.json",
+   "openapi/_original/qliksense-scheduling-tasks.json",
+   "openapi/_original/qliksense-sharing-tasks.json",
+   "openapi/_original/qliksense-spaces.json",
+   "openapi/_original/qliksense-tasks.json",
+   "openapi/_original/qliksense-temp-contents.json",
+   "openapi/_original/qliksense-tenant-settings.json",
+   "openapi/_original/qliksense-tenants.json",
+   "openapi/_original/qliksense-themes.json",
+   "openapi/_original/qliksense-transports.json",
+   "openapi/_original/qliksense-ui-config.json",
+   "openapi/_original/qliksense-users.json",
+   "openapi/_original/qliksense-web-integrations.json",
+   "openapi/_original/qliksense-web-notifications.json",
+   "openapi/_original/qliksense-webhooks.json",
+   "openapi/_original/qliksense-workflows-automation-connections.json",
+   "openapi/_original/qliksense-workflows-automation-connectors.json",
+   "openapi/_original/qliksense-workflows-automations.json"
+  ]
+ },
+ {
+  "slug": "qloo-com",
+  "specs": [
+   "openapi/_original/qloo-com-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "restaurant365",
+  "specs": [
+   "openapi/_original/restaurant365-odata-connector-openapi.yml",
+   "openapi/_original/restaurant365-r365-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "retool",
+  "specs": [
+   "openapi/_original/retool-management-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "rill-data",
+  "specs": [
+   "openapi/_original/rill-data-admin-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "rubicon-project",
+  "specs": [
+   "openapi/_original/rubicon-project-springserve-v0-openapi.yml",
+   "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml",
+   "openapi/_original/rubicon-project-springserve-v1-openapi.yml",
+   "openapi/_original/rubicon-project-springserve-v1-openapi_2.yml"
+  ]
+ },
+ {
+  "slug": "sap-bi",
+  "specs": [
+   "openapi/_original/sap-bi-analytics-cloud-openapi.yml",
+   "openapi/_original/sap-bi-businessobjects-platform-openapi.yml",
+   "openapi/_original/sap-bi-bw4hana-odata-openapi.yml",
+   "openapi/_original/sap-bi-datasphere-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sap-bi-tools",
+  "specs": [
+   "openapi/_original/sap-analytics-cloud-api-openapi.yml",
+   "openapi/_original/sap-analytics-cloud-content-network-api-openapi.yml",
+   "openapi/_original/sap-analytics-cloud-data-export-api-openapi.yml",
+   "openapi/_original/sap-businessobjects-bi-platform-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sap-concur-expense",
+  "specs": [
+   "openapi/_original/sap-concur-expense-report-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sifflet",
+  "specs": [
+   "openapi/_original/sifflet-backend-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "sigma-computing",
+  "specs": [
+   "openapi/_original/sigma-computing-code-representation-openapi.yaml",
+   "openapi/_original/sigma-computing-public-rest-api-openapi.json",
+   "openapi/_original/sigma-computing-rest-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "signoz",
+  "specs": [
+   "openapi/_original/signoz-openapi.yml"
+  ]
+ },
+ {
+  "slug": "silverfin",
+  "specs": [
+   "openapi/_original/silverfin-api-readme-slices.json",
+   "openapi/_original/silverfin-syncapi-openapi.yml",
+   "openapi/_original/silverfin-syncapi-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "sisense",
+  "specs": [
+   "openapi/_original/sisense-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "skai-kenshoo",
+  "specs": [
+   "openapi/_original/skai-kenshoo-api-openapi.yml",
+   "openapi/_original/skai-kenshoo-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "slope-software",
+  "specs": [
+   "openapi/_original/slope-software-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sovrn",
+  "specs": [
+   "openapi/_original/sovrn-advertising-reporting-openapi.yml",
+   "openapi/_original/sovrn-campaigns-openapi-original.json",
+   "openapi/_original/sovrn-commerce-bid-check-openapi.yml",
+   "openapi/_original/sovrn-commerce-campaigns-openapi.yml",
+   "openapi/_original/sovrn-commerce-link-check-openapi.yml",
+   "openapi/_original/sovrn-commerce-reports-openapi.yml",
+   "openapi/_original/sovrn-get_product-openapi-original.json",
+   "openapi/_original/sovrn-get_product_recommendations-openapi-original.json",
+   "openapi/_original/sovrn-get_reporting-advertising-publishers-publisherid-1-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-cuids-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-links-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-merchandise-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-merchants-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-merchantsbydate-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-networks-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-pages-openapi-original.json",
+   "openapi/_original/sovrn-get_reports-transactions-openapi-original.json",
+   "openapi/_original/sovrn-get_summaries-delta-openapi-original.json",
+   "openapi/_original/sovrn-getbid-openapi-original.json",
+   "openapi/_original/sovrn-link-openapi-original.json",
+   "openapi/_original/sovrn-merchant-summaries-openapi.yml",
+   "openapi/_original/sovrn-post_summaries-openapi-original.json",
+   "openapi/_original/sovrn-price-comparisons-openapi.yml",
+   "openapi/_original/sovrn-product-affiliate-api-openapi-original.json",
+   "openapi/_original/sovrn-product-coupons-openapi.yml",
+   "openapi/_original/sovrn-product-recommendations-openapi.yml"
+  ]
+ },
+ {
+  "slug": "splunk-observability",
+  "specs": [
+   "openapi/_original/splunk-observability-apm-service-topology-openapi.yml",
+   "openapi/_original/splunk-observability-apm-visibility-filters-openapi.yml",
+   "openapi/_original/splunk-observability-audit-events-openapi.yml",
+   "openapi/_original/splunk-observability-automatedarchival-openapi.yml",
+   "openapi/_original/splunk-observability-backfill-openapi.yml",
+   "openapi/_original/splunk-observability-charts-openapi.yml",
+   "openapi/_original/splunk-observability-client-inventory-openapi.yml",
+   "openapi/_original/splunk-observability-dashboard-groups-openapi.yml",
+   "openapi/_original/splunk-observability-dashboards-openapi.yml",
+   "openapi/_original/splunk-observability-datalinks-openapi.yml",
+   "openapi/_original/splunk-observability-detectors-openapi.yml",
+   "openapi/_original/splunk-observability-incidents-openapi.yml",
+   "openapi/_original/splunk-observability-ingest-data-openapi.yml",
+   "openapi/_original/splunk-observability-integrations-openapi.yml",
+   "openapi/_original/splunk-observability-metric-ruleset-openapi.yml",
+   "openapi/_original/splunk-observability-metrics-metadata-openapi.yml",
+   "openapi/_original/splunk-observability-navigator-openapi.yml",
+   "openapi/_original/splunk-observability-org-tokens-openapi.yml",
+   "openapi/_original/splunk-observability-organizations-openapi.yml",
+   "openapi/_original/splunk-observability-passwords-openapi.yml",
+   "openapi/_original/splunk-observability-retrieve-events-v1-openapi.yml",
+   "openapi/_original/splunk-observability-retrieve-events-v2-openapi.yml",
+   "openapi/_original/splunk-observability-retrieve-timeserieswindow-openapi.yml",
+   "openapi/_original/splunk-observability-roles-openapi.yml",
+   "openapi/_original/splunk-observability-sessiontokens-openapi.yml",
+   "openapi/_original/splunk-observability-signalflow-openapi.yml",
+   "openapi/_original/splunk-observability-slo-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-api-tests-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-api-tests-v2-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-artifacts-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-audits-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-browser-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-browser-v2-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-ca-certs-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-certificates-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-chrome-flags-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-devices-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-downtime-configurations-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-excluded-files-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-global-variables-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-http-tests-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-locations-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-ports-tests-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-runs-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-ssl-tests-openapi.yml",
+   "openapi/_original/splunk-observability-synthetics-tests-openapi.yml",
+   "openapi/_original/splunk-observability-teams-openapi.yml",
+   "openapi/_original/splunk-observability-trace-id-openapi.yml"
+  ]
+ },
+ {
+  "slug": "standard-metrics",
+  "specs": [
+   "openapi/_original/standard-metrics-auth-openapi.json",
+   "openapi/_original/standard-metrics-investment-data-openapi.json",
+   "openapi/_original/standard-metrics-main-openapi.json"
+  ]
+ },
+ {
+  "slug": "tableau",
+  "specs": [
+   "openapi/_original/tableau-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tableaux-de-bord",
+  "specs": [
+   "openapi/_original/grafana-dashboard-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tagetik",
+  "specs": [
+   "openapi/_original/cch-tagetik-odata-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tago-io",
+  "specs": [
+   "openapi/_original/tago-io-tago-io-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tako",
+  "specs": [
+   "openapi/_original/tako-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "tax-reporting-templates",
+  "specs": [
+   "openapi/_original/tax-reporting-templates-openapi.yml"
+  ]
+ },
+ {
+  "slug": "textql",
+  "specs": [
+   "openapi/_original/textql-agents-v1-openapi.yaml",
+   "openapi/_original/textql-agents-v1-openapi.yml",
+   "openapi/_original/textql-api-access-key-v1-openapi.yaml",
+   "openapi/_original/textql-api-access-key-v1-openapi.yml",
+   "openapi/_original/textql-chat-v1-openapi.yaml",
+   "openapi/_original/textql-chat-v1-openapi.yml",
+   "openapi/_original/textql-connectors-v1-openapi.yaml",
+   "openapi/_original/textql-connectors-v1-openapi.yml",
+   "openapi/_original/textql-platform-api-openapi.yaml",
+   "openapi/_original/textql-playbooks-v1-openapi.yaml",
+   "openapi/_original/textql-playbooks-v1-openapi.yml",
+   "openapi/_original/textql-sandbox-v1-openapi.yaml",
+   "openapi/_original/textql-sandbox-v1-openapi.yml",
+   "openapi/_original/textql-v2-openapi.yaml",
+   "openapi/_original/textql-v2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "thingsboard",
+  "specs": [
+   "openapi/_original/thingsboard-admin-openapi.yml",
+   "openapi/_original/thingsboard-ai-openapi.yml",
+   "openapi/_original/thingsboard-alarms-openapi.yml",
+   "openapi/_original/thingsboard-assets-openapi.yml",
+   "openapi/_original/thingsboard-auth-openapi.yml",
+   "openapi/_original/thingsboard-dashboards-openapi.yml",
+   "openapi/_original/thingsboard-devices-openapi.yml",
+   "openapi/_original/thingsboard-edge-openapi.yml",
+   "openapi/_original/thingsboard-lwm2m-openapi.yml",
+   "openapi/_original/thingsboard-mobile-openapi.yml",
+   "openapi/_original/thingsboard-notifications-openapi.yml",
+   "openapi/_original/thingsboard-rpc-openapi.yml",
+   "openapi/_original/thingsboard-rule-engine-openapi.yml",
+   "openapi/_original/thingsboard-telemetry-openapi.yml",
+   "openapi/_original/thingsboard-tenants-openapi.yml"
+  ]
+ },
+ {
+  "slug": "thoughtspot",
+  "specs": [
+   "openapi/_original/thoughtspot-rest-v2-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "tiktok-ads",
+  "specs": [
+   "openapi/_original/tiktok-ads-marketing-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "toggl",
+  "specs": [
+   "openapi/_original/toggl-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tooljet",
+  "specs": [
+   "openapi/_original/tooljet-tooljet-external-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tuva-health",
+  "specs": [
+   "openapi/_original/tuva-health-empi-openapi-original.yml",
+   "openapi/_original/tuva-health-empi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "varonis",
+  "specs": [
+   "openapi/_original/varonis-datalert-openapi.yml"
+  ]
+ },
+ {
+  "slug": "viglink",
+  "specs": [
+   "openapi/_original/viglink-bid-check-openapi.yml",
+   "openapi/_original/viglink-campaigns-openapi.yml",
+   "openapi/_original/viglink-link-check-openapi.yml",
+   "openapi/_original/viglink-merchant-summaries-openapi.yml",
+   "openapi/_original/viglink-price-comparisons-openapi.yml",
+   "openapi/_original/viglink-product-promo-codes-openapi.yml",
+   "openapi/_original/viglink-product-recommendations-openapi.yml",
+   "openapi/_original/viglink-reports-openapi.yml"
+  ]
+ },
+ {
+  "slug": "visier",
+  "specs": [
+   "openapi/_original/visier-administration-apis-openapi.yaml",
+   "openapi/_original/visier-analytic-model-apis-openapi.yaml",
+   "openapi/_original/visier-authentication-apis-openapi.yaml",
+   "openapi/_original/visier-compensation-benchmarks-openapi.yaml",
+   "openapi/_original/visier-data-in-apis-openapi.yaml",
+   "openapi/_original/visier-data-out-apis-openapi.yaml",
+   "openapi/_original/visier-planning-openapi.yaml",
+   "openapi/_original/visier-skills-intelligence-engine-openapi.yaml",
+   "openapi/_original/visier-webhooks-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "workday-report-writer",
+  "specs": [
+   "openapi/_original/v1.2.json",
+   "openapi/_original/workday-report-writer-prism-analytics-openapi.yml",
+   "openapi/_original/workday-report-writer-raas-openapi.yml",
+   "openapi/_original/workday-report-writer-wql-openapi.yml"
+  ]
+ },
+ {
+  "slug": "workday-reporting",
+  "specs": [
+   "openapi/_original/workday-reporting-raas-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zoho-analytics",
+  "specs": [
+   "openapi/_original/bulk-api.json",
+   "openapi/_original/data-api.json",
+   "openapi/_original/embed-api.json",
+   "openapi/_original/metadata-api.json",
+   "openapi/_original/modeling-api.json",
+   "openapi/_original/share-api.json",
+   "openapi/_original/usermanagement-api.json"
+  ]
+ }
+]

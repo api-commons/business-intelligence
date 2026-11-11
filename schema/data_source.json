@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/business-intelligence/main/schema/data_source.json",
+  "title": "Data Source",
+  "description": "The common data_source in Business Intelligence, distilled from 17 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.706,
+      "x-commons-providers": 12,
+      "x-commons-spellings": [
+        "id"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.529,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "name",
+        "title",
+        "display_name"
+      ]
+    },
+    "source_type": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.529,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "type",
+        "kind"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.235,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "createdAt",
+        "createdDate",
+        "created_at"
+      ],
+      "format": "date-time"
+    },
+    "datasource": {
+      "type": "object",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.235,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "datasource"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.235,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "description"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "business-intelligence",
+    "concept": "data_source",
+    "providers": 17,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

@@ -1,0 +1,40 @@
+provider: aifordatabase
+apis_io: https://apis.io/providers/aifordatabase/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: title
+      id: id
+      created_at: createdAt
+      description: description
+      updated_at: updatedAt
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/aifordatabase-openapi.json#DELETE /dashboards/{id}
+    - openapi/_original/aifordatabase-openapi.json#GET /dashboards
+    - openapi/_original/aifordatabase-openapi.json#GET /dashboards/{id}
+    - openapi/_original/aifordatabase-openapi.json#PATCH /dashboards/{id}
+    - openapi/_original/aifordatabase-openapi.json#POST /dashboards
+  chart:
+    path_segment:
+    - widgets
+    properties:
+      id:
+      - id
+      - dashboardId
+      name: title
+      created_at: createdAt
+      query: query
+      updated_at: updatedAt
+      chart_type: type
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/aifordatabase-openapi.json#DELETE /dashboards/{id}/widgets/{widgetId}
+    - openapi/_original/aifordatabase-openapi.json#GET /dashboards/{id}/widgets
+    - openapi/_original/aifordatabase-openapi.json#PATCH /dashboards/{id}/widgets/{widgetId}
+    - openapi/_original/aifordatabase-openapi.json#POST /dashboards/{id}/widgets
+    - openapi/_original/aifordatabase-openapi.yml#DELETE /dashboards/{id}/widgets/{widgetId}

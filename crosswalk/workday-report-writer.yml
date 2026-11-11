@@ -1,0 +1,14 @@
+provider: workday-report-writer
+apis_io: https://apis.io/providers/workday-report-writer/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+    core_coverage: 0.333
+    evidence:
+    - openapi/_original/workday-report-writer-wql-openapi.yml#GET /dataSources
+    - openapi/_original/workday-report-writer-wql-openapi.yml#GET /dataSources/{dataSourceId}

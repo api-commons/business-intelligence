@@ -1,0 +1,38 @@
+provider: splunk-observability
+apis_io: https://apis.io/providers/splunk-observability/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    - dashboards
+    properties:
+      name: name
+      id: id
+      created_at: created
+      description: description
+      owner: creator
+      tags: tags
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/splunk-observability-dashboard-groups-openapi.yml#POST /dashboardgroup/{id}/dashboard
+    - openapi/_original/splunk-observability-dashboards-openapi.yml#DELETE /dashboard/{id}
+    - openapi/_original/splunk-observability-dashboards-openapi.yml#GET /dashboard
+    - openapi/_original/splunk-observability-dashboards-openapi.yml#GET /dashboard/{id}
+    - openapi/_original/splunk-observability-dashboards-openapi.yml#POST /dashboard
+  chart:
+    path_segment:
+    - chart
+    properties:
+      id: id
+      name: name
+      created_at: created
+      description: description
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/splunk-observability-charts-openapi.yml#DELETE /chart/{id}
+    - openapi/_original/splunk-observability-charts-openapi.yml#GET /chart
+    - openapi/_original/splunk-observability-charts-openapi.yml#GET /chart/{id}
+    - openapi/_original/splunk-observability-charts-openapi.yml#POST /chart
+    - openapi/_original/splunk-observability-charts-openapi.yml#PUT /chart/{id}

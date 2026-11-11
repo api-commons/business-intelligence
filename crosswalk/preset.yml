@@ -1,0 +1,25 @@
+provider: preset
+apis_io: https://apis.io/providers/preset/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/preset-openapi.yml#DELETE /api/v1/dashboard/{pk}
+    - openapi/_original/preset-openapi.yml#GET /api/v1/dashboard/
+    - openapi/_original/preset-openapi.yml#GET /api/v1/dashboard/{pk}
+    - openapi/_original/preset-openapi.yml#POST /api/v1/dashboard/
+    - openapi/_original/preset-openapi.yml#PUT /api/v1/dashboard/{pk}
+  chart:
+    path_segment:
+    - chart
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/preset-openapi.yml#GET /api/v1/chart/
+    - openapi/_original/preset-openapi.yml#GET /api/v1/chart/{pk}
+    - openapi/_original/preset-openapi.yml#POST /api/v1/chart/

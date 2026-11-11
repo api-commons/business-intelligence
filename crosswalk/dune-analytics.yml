@@ -1,0 +1,35 @@
+provider: dune-analytics
+apis_io: https://apis.io/providers/dune-analytics/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: name
+      id: dashboard_id
+      tags: tags
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/dune-analytics-openapi.json#GET /v1/dashboards/{dashboard_id}
+    - openapi/_original/dune-analytics-openapi.json#PATCH /v1/dashboards/{dashboard_id}
+    - openapi/_original/dune-analytics-openapi.json#POST /v1/dashboards
+  chart:
+    path_segment:
+    - visualizations
+    properties:
+      id: id
+      name: name
+      created_at: created_at
+      description: description
+      query: query_id
+      updated_at: updated_at
+      chart_type: type
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/dune-analytics-openapi.json#DELETE /v1/visualizations/{visualization_id}
+    - openapi/_original/dune-analytics-openapi.json#GET /v1/queries/{query_id}/visualizations
+    - openapi/_original/dune-analytics-openapi.json#GET /v1/visualizations/{visualization_id}
+    - openapi/_original/dune-analytics-openapi.json#POST /v1/queries/{query_id}/visualizations
+    - openapi/_original/dune-analytics-openapi.json#PUT /v1/visualizations/{visualization_id}

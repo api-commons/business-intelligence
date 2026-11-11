@@ -1,0 +1,20 @@
+provider: tago-io
+apis_io: https://apis.io/providers/tago-io/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    properties:
+      id: id
+      created_at: created_at
+      updated_at: updated_at
+      tags: tags
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/tago-io-tago-io-rest-api-openapi.yml#DELETE /dashboard/{dashboardID}
+    - openapi/_original/tago-io-tago-io-rest-api-openapi.yml#GET /dashboard
+    - openapi/_original/tago-io-tago-io-rest-api-openapi.yml#GET /dashboard/{dashboardID}
+    - openapi/_original/tago-io-tago-io-rest-api-openapi.yml#POST /dashboard
+    - openapi/_original/tago-io-tago-io-rest-api-openapi.yml#PUT /dashboard/{dashboardID}

@@ -1,0 +1,3546 @@
+{
+ "cohort_size": 159,
+ "unreadable": [],
+ "concepts": {
+  "dashboard": {
+   "adafruit-io": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "name": "string",
+     "description": "string",
+     "key": "string",
+     "visual_type": "string",
+     "column": "number",
+     "row": "number",
+     "size_x": "number",
+     "size_y": "number",
+     "block_feeds": "array"
+    },
+    "evidence": [
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#DELETE /{username}/dashboards/{id}",
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/dashboards",
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/dashboards/{id}",
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#PATCH /{username}/dashboards/{id}",
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#POST /{username}/dashboards",
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#PUT /{username}/dashboards/{id}"
+    ]
+   },
+   "aifordatabase": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "data": null,
+     "error": "null",
+     "meta": "object",
+     "id": "string",
+     "orgId": "string",
+     "title": "string",
+     "description": "string",
+     "isPublic": "boolean",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "widgets": "array",
+     "deleted": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/aifordatabase-openapi.json#DELETE /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.json#GET /dashboards",
+     "openapi/_original/aifordatabase-openapi.json#GET /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.json#PATCH /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.json#POST /dashboards",
+     "openapi/_original/aifordatabase-openapi.yml#DELETE /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.yml#GET /dashboards",
+     "openapi/_original/aifordatabase-openapi.yml#GET /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.yml#PATCH /dashboards/{id}",
+     "openapi/_original/aifordatabase-openapi.yml#POST /dashboards"
+    ]
+   },
+   "amazon-quicksight": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "Arn": "string",
+     "DashboardId": "string",
+     "Name": "string",
+     "CreatedTime": "string",
+     "LastUpdatedTime": "string",
+     "PublishedVersionNumber": "integer",
+     "LastPublishedTime": "string",
+     "Version": "object"
+    },
+    "evidence": [
+     "openapi/_original/amazon-quicksight-openapi.yml#GET /accounts/{AwsAccountId}/dashboards",
+     "openapi/_original/amazon-quicksight-openapi.yml#GET /accounts/{AwsAccountId}/dashboards/{DashboardId}"
+    ]
+   },
+   "arduino": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "cover_image": "string",
+     "created_by": "object",
+     "id": "string",
+     "name": "string",
+     "organization_id": "string",
+     "shared_by": "object",
+     "shared_with": "array",
+     "updated_at": "string",
+     "widgets": "array",
+     "height": "integer",
+     "height_mobile": "integer",
+     "options": "object",
+     "type": "string",
+     "variables": "array",
+     "width": "integer",
+     "width_mobile": "integer",
+     "x": "integer",
+     "x_mobile": "integer",
+     "y": "integer",
+     "y_mobile": "integer",
+     "pages": "array",
+     "soft_deleted": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#DELETE /iot/v2/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v2/dashboards",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v2/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v3/dashboards",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v3/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#PATCH /iot/v2/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#PATCH /iot/v3/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#POST /iot/v2/dashboards",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#POST /iot/v3/dashboards",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#PUT /iot/v2/dashboards/{id}",
+     "openapi/_original/arduino-iot-cloud-api-openapi.yml#PUT /iot/v3/dashboards/{id}"
+    ]
+   },
+   "benchmark-email": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "campaign": "object",
+     "contact": "object"
+    },
+    "evidence": [
+     "openapi/_original/benchmark-email-api-openapi.json#GET /api/reports/dashboard"
+    ]
+   },
+   "cohesity": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "auditLogs": "object",
+     "clusterId": "integer",
+     "health": "object",
+     "iops": "object",
+     "jobRuns": "object",
+     "protectedObjects": "object",
+     "protection": "object",
+     "recoveries": "object",
+     "storageEfficiency": "object",
+     "throughput": "object"
+    },
+    "evidence": [
+     "openapi/_original/cohesity-cluster-v1-openapi-original.yml#GET /public/dashboard",
+     "openapi/_original/cohesity-cluster-v1-openapi.yml#GET /public/dashboard"
+    ]
+   },
+   "dune-analytics": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "dashboard_id": "integer",
+     "dashboard_url": "string",
+     "is_private": "boolean",
+     "name": "string",
+     "param_widgets": "array",
+     "slug": "string",
+     "tags": "array",
+     "text_widgets": "array",
+     "visualization_widgets": "array"
+    },
+    "evidence": [
+     "openapi/_original/dune-analytics-openapi.json#GET /v1/dashboards/{dashboard_id}",
+     "openapi/_original/dune-analytics-openapi.json#PATCH /v1/dashboards/{dashboard_id}",
+     "openapi/_original/dune-analytics-openapi.json#POST /v1/dashboards"
+    ]
+   },
+   "eventscom": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "createdBy": "object",
+     "modifiedBy": "object",
+     "createDate": "string",
+     "modiDate": "string",
+     "id": "string",
+     "title": "string",
+     "description": "string",
+     "config": "object",
+     "uiMetadata": "object"
+    },
+    "evidence": [
+     "openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v1/dashboards/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/dashboards",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/dashboards/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#POST /noCo/api/v1/dashboards",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v1/dashboards/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#DELETE /noCo/api/v1/dashboards/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#GET /noCo/api/v1/dashboards",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#GET /noCo/api/v1/dashboards/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#POST /noCo/api/v1/dashboards",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#PUT /noCo/api/v1/dashboards/{id}"
+    ]
+   },
+   "grafana": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET item"
+    ],
+    "properties": {
+     "created": "string",
+     "dashboards": "array",
+     "enableCsv": "boolean",
+     "enableDashboardUrl": "boolean",
+     "formats": "array",
+     "id": "integer",
+     "message": "string",
+     "name": "string",
+     "options": "object",
+     "orgId": "integer",
+     "recipients": "string",
+     "replyTo": "string",
+     "scaleFactor": "integer",
+     "schedule": "object",
+     "state": "string",
+     "subject": "string",
+     "uid": "string",
+     "updated": "string",
+     "userId": "integer",
+     "dashboard": "object",
+     "meta": "object"
+    },
+    "evidence": [
+     "openapi/_original/grafana-openapi.yml#GET /public/dashboards/{accessToken}",
+     "openapi/_original/grafana-openapi.yml#GET /reports/dashboards/{uid}"
+    ]
+   },
+   "grafana-com": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET item"
+    ],
+    "properties": {
+     "dashboard": "object",
+     "meta": "object",
+     "created": "string",
+     "dashboards": "array",
+     "enableCsv": "boolean",
+     "enableDashboardUrl": "boolean",
+     "formats": "array",
+     "id": "integer",
+     "message": "string",
+     "name": "string",
+     "options": "object",
+     "orgId": "integer",
+     "recipients": "string",
+     "replyTo": "string",
+     "scaleFactor": "integer",
+     "schedule": "object",
+     "state": "string",
+     "subject": "string",
+     "uid": "string",
+     "updated": "string",
+     "urls": "array",
+     "userId": "integer"
+    },
+    "evidence": [
+     "openapi/_original/grafana-com-openapi.json#GET /public/dashboards/{accessToken}",
+     "openapi/_original/grafana-com-openapi.json#GET /reports/dashboards/{uid}"
+    ]
+   },
+   "hyperdx": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "string",
+     "name": "string",
+     "tiles": "array",
+     "tags": "array",
+     "filters": "array",
+     "savedQuery": "string",
+     "savedQueryLanguage": "string",
+     "savedFilterValues": "array",
+     "containers": "array"
+    },
+    "evidence": [
+     "openapi/_original/hyperdx-external-api-openapi.json#DELETE /api/v2/dashboards/{id}",
+     "openapi/_original/hyperdx-external-api-openapi.json#GET /api/v2/dashboards",
+     "openapi/_original/hyperdx-external-api-openapi.json#GET /api/v2/dashboards/{id}",
+     "openapi/_original/hyperdx-external-api-openapi.json#POST /api/v2/dashboards",
+     "openapi/_original/hyperdx-external-api-openapi.json#PUT /api/v2/dashboards/{id}"
+    ]
+   },
+   "improvado": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "dashboard_id": "string",
+     "title": "string",
+     "data_name": "string"
+    },
+    "evidence": [
+     "openapi/_original/improvado-openapi.yml#GET /api/v3/workspaces/{id}/dashboards"
+    ]
+   },
+   "knowi": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/knowi-management-api-openapi.yml#GET /dashboards",
+     "openapi/_original/knowi-management-api-openapi.yml#GET /dashboards/{objectId}"
+    ]
+   },
+   "lightdash": {
+    "segments": [
+     "dashboards",
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH collection",
+     "PATCH item",
+     "POST collection",
+     "POST item"
+    ],
+    "properties": {
+     "offset": "number",
+     "total": "number",
+     "spaces": "array",
+     "missingIds": "array",
+     "languageMap": "array",
+     "dashboards": "array",
+     "documents": "array",
+     "dataApps": "array",
+     "sqlCharts": "array",
+     "charts": "array",
+     "warnings": "array",
+     "config": "object",
+     "verified": "boolean",
+     "contentType": "string",
+     "name": "string",
+     "slug": "string",
+     "parameters": "object",
+     "filters": "object",
+     "updatedAt": "string",
+     "version": "number",
+     "spaceSlug": "string",
+     "downloadedAt": "string",
+     "verification": null,
+     "access": "object",
+     "tabs": "array",
+     "ownerEmail": "string",
+     "filePath": "string",
+     "description": "string",
+     "tiles": null,
+     "spaceNames": "object",
+     "force": "boolean",
+     "publicSpaceCreate": "boolean",
+     "skipSpaceCreate": "boolean",
+     "source": "string",
+     "error": "string",
+     "tableName": "string",
+     "chartName": "string",
+     "projectUuid": "string",
+     "dashboardUuid": "string",
+     "errorType": "string",
+     "fieldName": "string",
+     "jobId": "string",
+     "fixAll": "boolean",
+     "type": "string",
+     "to": "string",
+     "from": "string",
+     "uuid": "string",
+     "organizationUuid": "string",
+     "pinnedListUuid": "string",
+     "pinnedListOrder": "number",
+     "updatedByUser": "object",
+     "spaceUuid": "string",
+     "views": "number",
+     "firstViewedAt": null,
+     "createdAt": "string",
+     "validationUuid": "string",
+     "validationId": "number",
+     "tileTypes": "array",
+     "deletedBy": "object",
+     "deletedAt": "string",
+     "owner": null,
+     "colorPaletteUuid": "string",
+     "inheritsFromOrgOrProject": "boolean",
+     "spaceName": "string",
+     "versionUuid": "string",
+     "dashboardVersionId": "number",
+     "draftStaleness": "object",
+     "dismissedDraftUuid": "string",
+     "draftOverlayError": "object",
+     "draftsAwaitingReview": "number",
+     "hasUnpublishedChanges": "boolean",
+     "projectType": "string",
+     "projectName": "string",
+     "dashboardDesc": "string",
+     "dashboardName": "string",
+     "results": "object",
+     "status": "string",
+     "ownerUserUuid": "string",
+     "preserveVerification": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/lightdash-openapi.json#DELETE /api/v2/projects/{projectUuid}/dashboards/{dashboardUuidOrSlug}",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/comments/dashboards/{dashboardUuidOrSlug}",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/code/dashboards",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/dashboards",
+     "openapi/_original/lightdash-openapi.json#GET /api/v2/projects/{projectUuid}/dashboards/{dashboardUuidOrSlug}",
+     "openapi/_original/lightdash-openapi.json#PATCH /api/v1/projects/{projectUuid}/dashboards",
+     "openapi/_original/lightdash-openapi.json#PATCH /api/v2/projects/{projectUuid}/dashboards/{dashboardUuidOrSlug}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/code/dashboards/{slug}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/dashboards",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/rename/dashboard/{dashboardUuid}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/validate/dashboard/{dashboardUuid}"
+    ]
+   },
+   "looker": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "title": "string",
+     "description": "string",
+     "content_metadata_id": "integer",
+     "query_timezone": "string",
+     "space_id": "string",
+     "folder_id": "string",
+     "user_id": "integer",
+     "space": "object",
+     "folder": "object",
+     "dashboard_elements": "array",
+     "dashboard_filters": "array",
+     "dashboard_layouts": "array",
+     "background_color": "string",
+     "text_tile_text_color": "string",
+     "tile_background_color": "string",
+     "tile_text_color": "string",
+     "hidden": "boolean",
+     "readonly": "boolean",
+     "refresh_interval": "string",
+     "load_configuration": "string",
+     "preferred_viewer": "string",
+     "created_at": "string",
+     "updated_at": "string",
+     "deleted_at": "string",
+     "deleted": "boolean",
+     "last_accessed_at": "string",
+     "view_count": "integer",
+     "favorite_count": "integer",
+     "url": "string",
+     "model": "object"
+    },
+    "evidence": [
+     "openapi/_original/looker-api-openapi.yml#DELETE /dashboards/{dashboard_id}",
+     "openapi/_original/looker-api-openapi.yml#GET /dashboards",
+     "openapi/_original/looker-api-openapi.yml#GET /dashboards/{dashboard_id}",
+     "openapi/_original/looker-api-openapi.yml#PATCH /dashboards/{dashboard_id}",
+     "openapi/_original/looker-api-openapi.yml#POST /dashboards"
+    ]
+   },
+   "metabase": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "description": "string",
+     "collection_id": "integer",
+     "creator_id": "integer",
+     "created_at": "string",
+     "updated_at": "string"
+    },
+    "evidence": [
+     "openapi/_original/metabase-openapi.yml#DELETE /dashboard/{id}",
+     "openapi/_original/metabase-openapi.yml#GET /dashboard",
+     "openapi/_original/metabase-openapi.yml#GET /dashboard/{id}",
+     "openapi/_original/metabase-openapi.yml#POST /dashboard",
+     "openapi/_original/metabase-openapi.yml#PUT /dashboard/{id}"
+    ]
+   },
+   "omni": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE collection"
+    ],
+    "properties": {
+     "identifier": "string",
+     "draftIdentifier": "string",
+     "name": "string",
+     "description": [
+      "string",
+      "null"
+     ]
+    },
+    "evidence": [
+     "openapi/_original/omni-openapi-original.yml#DELETE /v2/documents/{documentId}/draft/{draftId}/dashboard"
+    ]
+   },
+   "orion-advisor-solutions": {
+    "segments": [
+     "dashboards",
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "parentDashboardId": "integer",
+     "roles": "array",
+     "isShared": "boolean",
+     "isVisible": "boolean",
+     "isDefault": "boolean",
+     "isGlobal": "boolean",
+     "isPortfolioView": "boolean",
+     "userId": "integer",
+     "dashboardType": "string",
+     "id": "integer",
+     "dashboardName": "string",
+     "createdDate": "string",
+     "name": "string",
+     "createdBy": "string",
+     "cards": "array",
+     "action": "string",
+     "values": "array",
+     "reportId": "integer",
+     "startDate": "string",
+     "endDate": "string",
+     "targetIndexes": "array",
+     "showAllAccounts": "boolean",
+     "runReportAutomatically": "boolean",
+     "feeOptionId": "integer",
+     "performanceHigh": "number",
+     "performanceLow": "number",
+     "standardDeviationHigh": "number",
+     "standardDeviationLow": "number",
+     "treynorHigh": "number",
+     "treynorLow": "number",
+     "betaHigh": "number",
+     "betaLow": "number",
+     "alphaHigh": "number",
+     "alphaLow": "number",
+     "compPercentHigh": "number",
+     "compPercentLow": "number",
+     "sharpeHigh": "number",
+     "sharpeLow": "number",
+     "sortinoHigh": "number",
+     "sortinoLow": "number",
+     "compDispersion": "number",
+     "widgets": "string",
+     "dashboardLevel": "string",
+     "visibilityLevel": "string",
+     "description": "string",
+     "systemType": "string",
+     "completedPercent": "number",
+     "typeId": "integer",
+     "title": "string",
+     "period": "string",
+     "targetDate": "string",
+     "signedOffBy": "string",
+     "signedOffDate": "string",
+     "workflowItemId": "integer",
+     "isLockedDown": "boolean",
+     "isLegacy": "boolean",
+     "friendlyName": "string",
+     "reviewTasks": "array",
+     "instanceName": "string",
+     "waitingOn": "string",
+     "lastUpdate": "string",
+     "percentComplete": "number"
+    },
+    "evidence": [
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Homepage/Dashboards/{id}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Reporting/Dashboards/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Reporting/ProcessManager/Dashboard/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/{id}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/Dashboards",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/Dashboards/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/InterfaceSetup/{qpeItemId}/Dashboard",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/ProcessManager/Dashboard",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/ProcessManager/Dashboard/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/Qpe/{qpeItemId}/Dashboard",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/User/Homepage/Assigned/PortfolioView/Dashboards/{dashboardName}"
+    ]
+   },
+   "perses": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "kind": "string",
+     "metadata": "object",
+     "spec": "object"
+    },
+    "evidence": [
+     "openapi/_original/perses-openapi.yml#DELETE /api/v1/projects/{projectName}/dashboards/{dashboardName}",
+     "openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/dashboards",
+     "openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/dashboards/{dashboardName}",
+     "openapi/_original/perses-openapi.yml#POST /api/v1/projects/{projectName}/dashboards",
+     "openapi/_original/perses-openapi.yml#PUT /api/v1/projects/{projectName}/dashboards/{dashboardName}"
+    ]
+   },
+   "power-bi": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "displayName": "string",
+     "isReadOnly": "boolean",
+     "webUrl": "string",
+     "embedUrl": "string",
+     "dataClassification": "string",
+     "name": "string"
+    },
+    "evidence": [
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards",
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}",
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /groups/{groupId}/dashboards",
+     "openapi/_original/power-bi-rest-api-openapi.yml#POST /dashboards"
+    ]
+   },
+   "preset": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "count": "integer",
+     "ids": "array",
+     "result": "array"
+    },
+    "evidence": [
+     "openapi/_original/preset-openapi.yml#DELETE /api/v1/dashboard/{pk}",
+     "openapi/_original/preset-openapi.yml#GET /api/v1/dashboard/",
+     "openapi/_original/preset-openapi.yml#GET /api/v1/dashboard/{pk}",
+     "openapi/_original/preset-openapi.yml#POST /api/v1/dashboard/",
+     "openapi/_original/preset-openapi.yml#PUT /api/v1/dashboard/{pk}"
+    ]
+   },
+   "sigma-computing": {
+    "segments": [
+     "workbooks"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "workbookId": "string",
+     "workbookUrlId": "string",
+     "name": "string",
+     "url": "string",
+     "path": "string",
+     "latestVersion": "number",
+     "ownerId": "string",
+     "createdBy": "string",
+     "updatedBy": "string",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "versionTagId": "string",
+     "sourceWorkbookVersion": "number",
+     "taggedWorkbookId": "string",
+     "workbookTaggedAt": "string",
+     "total": "number",
+     "hasMore": "boolean",
+     "workbookUrl": "string",
+     "folderId": "string",
+     "description": "string",
+     "isArchived": "boolean",
+     "tags": "array",
+     "taggedSourceUrlId": "string"
+    },
+    "evidence": [
+     "openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/tags/{tagId}/workbooks",
+     "openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/tenants/{tenantOrganizationId}/workbooks",
+     "openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/workbooks",
+     "openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/workbooks/{workbookId}",
+     "openapi/_original/sigma-computing-public-rest-api-openapi.json#POST /v2/workbooks",
+     "openapi/_original/sigma-computing-rest-api-openapi.yaml#GET /v2/tags/{tagId}/workbooks",
+     "openapi/_original/sigma-computing-rest-api-openapi.yaml#GET /v2/tenants/{tenantOrganizationId}/workbooks",
+     "openapi/_original/sigma-computing-rest-api-openapi.yaml#GET /v2/workbooks",
+     "openapi/_original/sigma-computing-rest-api-openapi.yaml#GET /v2/workbooks/{workbookId}",
+     "openapi/_original/sigma-computing-rest-api-openapi.yaml#POST /v2/workbooks"
+    ]
+   },
+   "signoz": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "dashboard": "object",
+     "publicDashboard": "object",
+     "dashboardId": "string",
+     "dashboardName": "string",
+     "widgetId": "string",
+     "widgetName": "string"
+    },
+    "evidence": [
+     "openapi/_original/signoz-openapi.yml#GET /api/v1/public/dashboards/{id}",
+     "openapi/_original/signoz-openapi.yml#GET /api/v2/metrics/{metric_name}/dashboards"
+    ]
+   },
+   "sisense": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "oid": "string",
+     "title": "string",
+     "desc": "string",
+     "owner": "string",
+     "folder": "string",
+     "shares": "array",
+     "created": "string",
+     "lastUpdated": "string",
+     "type": "string"
+    },
+    "evidence": [
+     "openapi/_original/sisense-rest-api-openapi.yml#DELETE /dashboards/{id}",
+     "openapi/_original/sisense-rest-api-openapi.yml#GET /dashboards",
+     "openapi/_original/sisense-rest-api-openapi.yml#GET /dashboards/{id}",
+     "openapi/_original/sisense-rest-api-openapi.yml#POST /dashboards"
+    ]
+   },
+   "splunk-observability": {
+    "segments": [
+     "dashboard",
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "string",
+     "description": "string",
+     "filters": "object",
+     "name": "string",
+     "sourceDashboard": "string",
+     "authorizedWriters": "object",
+     "chartDensity": "string",
+     "charts": "array",
+     "created": "integer",
+     "creator": "string",
+     "customProperties": "string",
+     "discoveryOptions": "object",
+     "eventOverlays": "array",
+     "groupId": "string",
+     "lastUpdated": "integer",
+     "lastUpdatedBy": "string",
+     "maxDelayOverride": "integer",
+     "selectedEventOverlays": "array",
+     "tags": "array",
+     "permissions": "object",
+     "aggregateDashboards": "array",
+     "instanceDashboards": "array"
+    },
+    "evidence": [
+     "openapi/_original/splunk-observability-dashboard-groups-openapi.yml#POST /dashboardgroup/{id}/dashboard",
+     "openapi/_original/splunk-observability-dashboards-openapi.yml#DELETE /dashboard/{id}",
+     "openapi/_original/splunk-observability-dashboards-openapi.yml#GET /dashboard",
+     "openapi/_original/splunk-observability-dashboards-openapi.yml#GET /dashboard/{id}",
+     "openapi/_original/splunk-observability-dashboards-openapi.yml#POST /dashboard",
+     "openapi/_original/splunk-observability-dashboards-openapi.yml#PUT /dashboard/{id}",
+     "openapi/_original/splunk-observability-navigator-openapi.yml#GET /navigator/{id}/dashboards"
+    ]
+   },
+   "tableau": {
+    "segments": [
+     "workbooks"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PUT item"
+    ],
+    "properties": {
+     "pagination": "object",
+     "workbooks": "object",
+     "id": "string",
+     "name": "string",
+     "description": "string",
+     "contentUrl": "string",
+     "webpageUrl": "string",
+     "showTabs": "boolean",
+     "size": "integer",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "encryptExtracts": "string",
+     "defaultViewId": "string",
+     "project": "object",
+     "owner": "object",
+     "tags": "object",
+     "views": "object",
+     "usage": "object",
+     "permissions": "object",
+     "parent": "object"
+    },
+    "evidence": [
+     "openapi/_original/tableau-rest-api-openapi.yml#DELETE /sites/{site-id}/workbooks/{workbook-id}",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/projects/{project-id}/default-permissions/workbooks",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/users/{user-id}/workbooks",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks/{workbook-id}",
+     "openapi/_original/tableau-rest-api-openapi.yml#PUT /sites/{site-id}/workbooks/{workbook-id}"
+    ]
+   },
+   "tago-io": {
+    "segments": [
+     "dashboard"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "arrangement": "array",
+     "background": "object",
+     "blueprint_device_behavior": null,
+     "blueprint_devices": "array",
+     "blueprint_selector_behavior": null,
+     "created_at": "string",
+     "group_by": "array",
+     "icon": "object",
+     "id": "string",
+     "label": "string",
+     "last_access": "string",
+     "setup": "object",
+     "tabs": "array",
+     "tags": "array",
+     "theme": null,
+     "type": "string",
+     "updated_at": "string",
+     "visible": "boolean",
+     "result": "string",
+     "status": "boolean",
+     "profile": "string",
+     "dashboard": "string"
+    },
+    "evidence": [
+     "openapi/_original/tago-io-tago-io-rest-api-openapi.yml#DELETE /dashboard/{dashboardID}",
+     "openapi/_original/tago-io-tago-io-rest-api-openapi.yml#GET /dashboard",
+     "openapi/_original/tago-io-tago-io-rest-api-openapi.yml#GET /dashboard/{dashboardID}",
+     "openapi/_original/tago-io-tago-io-rest-api-openapi.yml#POST /dashboard",
+     "openapi/_original/tago-io-tago-io-rest-api-openapi.yml#PUT /dashboard/{dashboardID}"
+    ]
+   },
+   "thingsboard": {
+    "segments": [
+     "dashboard",
+     "dashboards"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "POST item"
+    ],
+    "properties": {
+     "title": "string",
+     "image": "string",
+     "mobileHide": "boolean",
+     "mobileOrder": "integer",
+     "configuration": null,
+     "name": "string",
+     "resources": "array",
+     "id": "object",
+     "createdTime": "integer",
+     "tenantId": "object",
+     "assignedCustomers": "array",
+     "version": "integer",
+     "last": "array",
+     "starred": "array"
+    },
+    "evidence": [
+     "openapi/_original/thingsboard-dashboards-openapi.yml#DELETE /api/customer/public/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#DELETE /api/customer/{customerId}/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#DELETE /api/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#DELETE /api/edge/{edgeId}/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/customer/{customerId}/dashboards",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/dashboards",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/edge/{edgeId}/dashboards",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/tenant/dashboards",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#GET /api/tenant/{tenantId}/dashboards",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#POST /api/customer/public/dashboard/{dashboardId}",
+     "openapi/_original/thingsboard-dashboards-openapi.yml#POST /api/customer/{customerId}/dashboard/{dashboardId}"
+    ]
+   },
+   "zoho-analytics": {
+    "segments": [
+     "dashboards"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "ownedViews": "array",
+     "sharedViews": "array"
+    },
+    "evidence": [
+     "openapi/_original/metadata-api.json#GET /restapi/v2/dashboards"
+    ]
+   }
+  },
+  "chart": {
+   "adafruit-io": {
+    "segments": [
+     "chart"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "feed": "object",
+     "parameters": "object",
+     "columns": "array",
+     "data": "array"
+    },
+    "evidence": [
+     "openapi/_original/adafruit-io-rest-api-openapi.yml#GET /{username}/feeds/{feed_key}/data/chart"
+    ]
+   },
+   "aifordatabase": {
+    "segments": [
+     "widgets"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "data": null,
+     "error": "null",
+     "meta": "object",
+     "id": "string",
+     "dashboardId": "string",
+     "connectionId": "string",
+     "type": "string",
+     "title": "string",
+     "query": "string",
+     "config": "string",
+     "width": "integer",
+     "height": "integer",
+     "position": "integer",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "deleted": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/aifordatabase-openapi.json#DELETE /dashboards/{id}/widgets/{widgetId}",
+     "openapi/_original/aifordatabase-openapi.json#GET /dashboards/{id}/widgets",
+     "openapi/_original/aifordatabase-openapi.json#PATCH /dashboards/{id}/widgets/{widgetId}",
+     "openapi/_original/aifordatabase-openapi.json#POST /dashboards/{id}/widgets",
+     "openapi/_original/aifordatabase-openapi.yml#DELETE /dashboards/{id}/widgets/{widgetId}",
+     "openapi/_original/aifordatabase-openapi.yml#GET /dashboards/{id}/widgets",
+     "openapi/_original/aifordatabase-openapi.yml#PATCH /dashboards/{id}/widgets/{widgetId}",
+     "openapi/_original/aifordatabase-openapi.yml#POST /dashboards/{id}/widgets"
+    ]
+   },
+   "dune-analytics": {
+    "segments": [
+     "visualizations"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "created_at": "string",
+     "id": "integer",
+     "name": "string",
+     "type": "string",
+     "updated_at": "string",
+     "description": "string",
+     "options": "object",
+     "query_id": "integer",
+     "ok": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/dune-analytics-openapi.json#DELETE /v1/visualizations/{visualization_id}",
+     "openapi/_original/dune-analytics-openapi.json#GET /v1/queries/{query_id}/visualizations",
+     "openapi/_original/dune-analytics-openapi.json#GET /v1/visualizations/{visualization_id}",
+     "openapi/_original/dune-analytics-openapi.json#POST /v1/queries/{query_id}/visualizations",
+     "openapi/_original/dune-analytics-openapi.json#PUT /v1/visualizations/{visualization_id}"
+    ]
+   },
+   "eventscom": {
+    "segments": [
+     "widgets"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "string",
+     "type": "string",
+     "config": "object",
+     "title": "string",
+     "subTitle": "string",
+     "tableId": "string",
+     "viewId": "string",
+     "message": "string",
+     "table": "object",
+     "widgets": "array",
+     "modiDate": "string",
+     "parameters": "array",
+     "indexStatus": "string"
+    },
+    "evidence": [
+     "openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v1/widgets/{widgetId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v3/workspaces/{workspaceId}/bi/{biId}/interfaces/{interfaceId}/pages/{pageId}/config/{configId}/widgets/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/widgets/{widgetId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v2/biPage/{pageId}/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v2/workspaces/{workspaceId}/biPage/{pageId}/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#POST /noCo/api/v1/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#POST /noCo/api/v3/workspaces/{workspaceId}/bi/{biId}/interfaces/{interfaceId}/pages/{pageId}/config/{configId}/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v1/widgets/{widgetId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v2/biPage/{pageId}/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v2/workspaces/{workspaceId}/biPage/{pageId}/widgets",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v3/workspaces/{workspaceId}/bi/{biId}/interfaces/{interfaceId}/pages/{pageId}/config/{configId}/widgets/{id}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#DELETE /noCo/api/v1/widgets/{widgetId}"
+    ]
+   },
+   "google-looker": {
+    "segments": [
+     "looks"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "id": "string",
+     "title": "string",
+     "description": "string",
+     "public": "boolean",
+     "query_id": "string"
+    },
+    "evidence": [
+     "openapi/_original/openapi.yml#GET /looks"
+    ]
+   },
+   "later": {
+    "segments": [
+     "widgets"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "actionGroupId": "number",
+     "communityId": "string",
+     "cssSelector": "string",
+     "initializationRuleType": "string",
+     "targetUrl": "string",
+     "urlRegexRule": "string",
+     "widgetHTML": "string",
+     "widgetType": "string"
+    },
+    "evidence": [
+     "openapi/_original/later-influence-api-openapi-original.json#GET /v1/web-plugin/widgets",
+     "openapi/_original/later-influence-api-openapi.json#GET /v1/web-plugin/widgets"
+    ]
+   },
+   "lightdash": {
+    "segments": [
+     "charts",
+     "chart"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "POST item"
+    ],
+    "properties": {
+     "offset": "number",
+     "total": "number",
+     "spaces": "array",
+     "missingIds": "array",
+     "languageMap": "array",
+     "charts": "array",
+     "documents": "array",
+     "dataApps": "array",
+     "sqlCharts": "array",
+     "dashboards": "array",
+     "verified": "boolean",
+     "contentType": "string",
+     "name": "string",
+     "tableName": "string",
+     "metricQuery": null,
+     "pivotConfig": "object",
+     "slug": "string",
+     "parameters": "object",
+     "merge": null,
+     "updatedAt": "string",
+     "tableConfig": "object",
+     "dashboardSlug": "string",
+     "version": "number",
+     "spaceSlug": "string",
+     "downloadedAt": "string",
+     "verification": null,
+     "access": "object",
+     "filePath": "string",
+     "description": "string",
+     "chartConfig": null,
+     "spaceNames": "object",
+     "force": "boolean",
+     "publicSpaceCreate": "boolean",
+     "skipSpaceCreate": "boolean",
+     "resolvedTimezone": "string",
+     "usedParametersValues": "object",
+     "parameterReferences": "array",
+     "cacheMetadata": "object",
+     "queryUuid": "string",
+     "tables": "array",
+     "fields": "array",
+     "message": "string",
+     "usePreAggregateCache": "boolean",
+     "invalidateCache": "boolean",
+     "context": "string",
+     "dashboardFilters": "object",
+     "filters": "object",
+     "pivotConfiguration": "object",
+     "pivotResults": "boolean",
+     "limit": "number",
+     "versionUuid": "string",
+     "chartUuid": "string",
+     "title": "string",
+     "source": "string",
+     "error": "string",
+     "chartName": "string",
+     "projectUuid": "string",
+     "errorType": "string",
+     "fieldName": "string",
+     "jobId": "string",
+     "fixAll": "boolean",
+     "type": "string",
+     "to": "string",
+     "from": "string",
+     "uuid": "string",
+     "organizationUuid": "string",
+     "pinnedListUuid": "string",
+     "spaceUuid": "string",
+     "spaceName": "string",
+     "dashboardUuid": "string",
+     "dashboardName": "string",
+     "chartKind": "string",
+     "chartType": "string",
+     "pinnedListOrder": "number",
+     "updatedByUser": "object",
+     "firstViewedAt": null,
+     "views": "number",
+     "createdAt": "string",
+     "validationUuid": "string",
+     "validationId": "number"
+    },
+    "evidence": [
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/ee/projects/{projectUuid}/ai-deep-research/{aiDeepResearchRunUuid}/charts/{queryUuid}",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/charts",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/code/charts",
+     "openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/explores/{exploreId}/charts",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/code/charts/{slug}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/rename/chart/{chartUuid}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/validate/chart/{chartUuid}",
+     "openapi/_original/lightdash-openapi.json#POST /api/v2/projects/{projectUuid}/query/chart"
+    ]
+   },
+   "looker": {
+    "segments": [
+     "looks"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PATCH item"
+    ],
+    "properties": {
+     "id": "integer",
+     "title": "string",
+     "description": "string",
+     "content_metadata_id": "integer",
+     "query_id": "integer",
+     "query": "object",
+     "space_id": "string",
+     "folder_id": "string",
+     "user_id": "integer",
+     "space": "object",
+     "folder": "object",
+     "public": "boolean",
+     "is_run_on_load": "boolean",
+     "created_at": "string",
+     "updated_at": "string",
+     "deleted_at": "string",
+     "deleted": "boolean",
+     "last_accessed_at": "string",
+     "view_count": "integer",
+     "favorite_count": "integer",
+     "model": "object",
+     "url": "string"
+    },
+    "evidence": [
+     "openapi/_original/looker-api-openapi.yml#DELETE /looks/{look_id}",
+     "openapi/_original/looker-api-openapi.yml#GET /looks",
+     "openapi/_original/looker-api-openapi.yml#GET /looks/{look_id}",
+     "openapi/_original/looker-api-openapi.yml#PATCH /looks/{look_id}"
+    ]
+   },
+   "mavrck": {
+    "segments": [
+     "widgets"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "actionGroupId": "number",
+     "communityId": "string",
+     "cssSelector": "string",
+     "initializationRuleType": "string",
+     "targetUrl": "string",
+     "urlRegexRule": "string",
+     "widgetHTML": "string",
+     "widgetType": "string"
+    },
+    "evidence": [
+     "openapi/_original/mavrck-openapi.json#GET /v1/web-plugin/widgets"
+    ]
+   },
+   "microsoft-excel-advanced": {
+    "segments": [
+     "charts"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/microsoft-excel-advanced-openapi.yml#GET /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id}/charts"
+    ]
+   },
+   "mode": {
+    "segments": [
+     "charts"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "pagination": "object",
+     "_links": "object",
+     "_embedded": null,
+     "view": "object",
+     "view_version": "integer",
+     "view_vegas": "object",
+     "token": "string",
+     "created_at": "string",
+     "updated_at": "string",
+     "color_palette_token": "string",
+     "switch_view_token": "string"
+    },
+    "evidence": [
+     "openapi/_original/mode-openapi-original.yml#GET /{account}/reports/{report}/queries/{query}/charts",
+     "openapi/_original/mode-openapi-original.yml#GET /{account}/reports/{report}/queries/{query}/charts/{chart}"
+    ]
+   },
+   "orion-advisor-solutions": {
+    "segments": [
+     "cards",
+     "widgets"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST item",
+     "PUT item"
+    ],
+    "properties": {
+     "displayName": "string",
+     "promptType": "integer",
+     "selectedValue": "string",
+     "code": "string",
+     "dataType": "string",
+     "availableValues": "array",
+     "valuesSource": "object",
+     "option": "object",
+     "hidden": "boolean",
+     "settings": "array",
+     "category": "string",
+     "dragSortEnabled": "boolean",
+     "useDefaultIfHidden": "boolean",
+     "isThreeDotMenu": "boolean",
+     "cardEventType": "integer",
+     "mappings": "object",
+     "listEditor": "object",
+     "listEditorMenuTargetCode": "string",
+     "maxOptionsAllowed": "integer",
+     "dashboardCardId": "integer",
+     "isGlobal": "boolean",
+     "position": "integer",
+     "isVisible": "boolean",
+     "hideIfRestricted": "boolean",
+     "setting": "array",
+     "components": "array",
+     "id": "integer",
+     "name": "string",
+     "description": "string",
+     "size": "integer",
+     "icon": "string",
+     "securityCode": "string",
+     "isActive": "boolean",
+     "endpoint": "string",
+     "endpointVerb": "string",
+     "moreRoute": "string",
+     "imageName": "string",
+     "dashboardLevel": "integer",
+     "widgetParams": "string",
+     "tags": "string"
+    },
+    "evidence": [
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/User/Homepage/Assigned/Dashboards/{dashboardId}/Cards/{cardId}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/Cards/{id}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/Widgets",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Dashboards/{dashboardId}/Cards/{cardId}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#PUT /v1/Homepage/Dashboards/Cards/{id}"
+    ]
+   },
+   "power-bi": {
+    "segments": [
+     "tiles"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "id": "string",
+     "title": "string",
+     "subTitle": "string",
+     "embedUrl": "string",
+     "embedData": "string",
+     "reportId": "string",
+     "datasetId": "string",
+     "rowSpan": "integer",
+     "colSpan": "integer"
+    },
+    "evidence": [
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}/tiles",
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}/tiles/{tileId}"
+    ]
+   },
+   "preset": {
+    "segments": [
+     "chart"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "count": "integer",
+     "ids": "array",
+     "result": "array"
+    },
+    "evidence": [
+     "openapi/_original/preset-openapi.yml#GET /api/v1/chart/",
+     "openapi/_original/preset-openapi.yml#GET /api/v1/chart/{pk}",
+     "openapi/_original/preset-openapi.yml#POST /api/v1/chart/"
+    ]
+   },
+   "rubicon-project": {
+    "segments": [
+     "tiles"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/rubicon-project-springserve-v0-openapi.yml#DELETE /api/v0/tiles/{id}",
+     "openapi/_original/rubicon-project-springserve-v0-openapi.yml#GET /api/v0/tiles",
+     "openapi/_original/rubicon-project-springserve-v0-openapi.yml#GET /api/v0/tiles/{id}",
+     "openapi/_original/rubicon-project-springserve-v0-openapi.yml#POST /api/v0/tiles",
+     "openapi/_original/rubicon-project-springserve-v0-openapi.yml#PUT /api/v0/tiles/{id}",
+     "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml#DELETE /api/v0/tiles/{id}",
+     "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml#GET /api/v0/tiles",
+     "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml#GET /api/v0/tiles/{id}",
+     "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml#POST /api/v0/tiles",
+     "openapi/_original/rubicon-project-springserve-v0-openapi_2.yml#PUT /api/v0/tiles/{id}"
+    ]
+   },
+   "splunk-observability": {
+    "segments": [
+     "chart"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "created": "integer",
+     "creator": "string",
+     "customProperties": "object",
+     "description": "string",
+     "id": "string",
+     "lastUpdated": "integer",
+     "lastUpdatedBy": "string",
+     "name": "string",
+     "options": "object",
+     "relatedDetectorIds": "array",
+     "autoDetectRelatedDetectorIds": "array",
+     "packageSpecifications": "string",
+     "programText": "string",
+     "tags": "array"
+    },
+    "evidence": [
+     "openapi/_original/splunk-observability-charts-openapi.yml#DELETE /chart/{id}",
+     "openapi/_original/splunk-observability-charts-openapi.yml#GET /chart",
+     "openapi/_original/splunk-observability-charts-openapi.yml#GET /chart/{id}",
+     "openapi/_original/splunk-observability-charts-openapi.yml#POST /chart",
+     "openapi/_original/splunk-observability-charts-openapi.yml#PUT /chart/{id}"
+    ]
+   },
+   "tableau": {
+    "segments": [
+     "views"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "pagination": "object",
+     "views": "object"
+    },
+    "evidence": [
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks/{workbook-id}/views"
+    ]
+   }
+  },
+  "data_source": {
+   "eventscom": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "properties": "object",
+     "username": "string",
+     "password": "string",
+     "driverName": "string",
+     "type": "string",
+     "subType": "string",
+     "tables": "array",
+     "wareHouseInfo": "object",
+     "createdBy": "object",
+     "createdAt": "string",
+     "companyId": "integer",
+     "isMvDataSource": "boolean",
+     "caseSensitive": "boolean",
+     "lastSyncedAt": "string",
+     "lastSyncStatus": "string",
+     "thirdPartyDataSourceId": "string",
+     "format": "string",
+     "description": "string",
+     "schemaInfo": "object",
+     "meta": "object",
+     "storageType": "string",
+     "schema": "string",
+     "warehouse": "boolean",
+     "connCatalog": "string",
+     "connSchema": "string"
+    },
+    "evidence": [
+     "openapi/_original/eventscom-datagol-ai-openapi.json#POST /ai/api/v2/sqlParser/dataSources",
+     "openapi/_original/eventscom-datagol-ai-openapi.yml#POST /ai/api/v2/sqlParser/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /dataSources/api/v1/dataSources/{dataSourceId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /catalog/api/v1/search/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /dataSources/api/v1/config/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /dataSources/api/v1/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#GET /dataSources/api/v1/dataSources/{dataSourceId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#POST /api/v1/query-parser/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#POST /dataSources/api/v1/dataSources",
+     "openapi/_original/eventscom-datagol-platform-openapi.json#PUT /dataSources/api/v1/dataSources/{dataSourceId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#DELETE /dataSources/api/v1/dataSources/{dataSourceId}",
+     "openapi/_original/eventscom-datagol-platform-openapi.yml#GET /catalog/api/v1/search/dataSources"
+    ]
+   },
+   "gooddata": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "type": "string",
+     "attributes": "object"
+    },
+    "evidence": [
+     "openapi/_original/gooddata-openapi.yml#DELETE /api/v1/entities/dataSources/{dataSourceId}",
+     "openapi/_original/gooddata-openapi.yml#GET /api/v1/entities/dataSources",
+     "openapi/_original/gooddata-openapi.yml#GET /api/v1/entities/dataSources/{dataSourceId}",
+     "openapi/_original/gooddata-openapi.yml#POST /api/v1/entities/dataSources"
+    ]
+   },
+   "grafana": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "uid": "string",
+     "orgId": "integer",
+     "name": "string",
+     "type": "string",
+     "typeName": "string",
+     "typeLogoUrl": "string",
+     "access": "string",
+     "url": "string",
+     "user": "string",
+     "database": "string",
+     "basicAuth": "boolean",
+     "basicAuthUser": "string",
+     "withCredentials": "boolean",
+     "isDefault": "boolean",
+     "jsonData": "object",
+     "secureJsonFields": "object",
+     "readOnly": "boolean",
+     "version": "integer",
+     "secureJsonData": "object",
+     "datasource": "object",
+     "message": "string",
+     "accessControl": "object"
+    },
+    "evidence": [
+     "openapi/_original/grafana-api.yml#DELETE /datasources/{id}",
+     "openapi/_original/grafana-api.yml#GET /datasources",
+     "openapi/_original/grafana-api.yml#GET /datasources/{id}",
+     "openapi/_original/grafana-api.yml#POST /datasources",
+     "openapi/_original/grafana-api.yml#PUT /datasources/{id}",
+     "openapi/_original/grafana-openapi.yml#DELETE /datasources/{id}",
+     "openapi/_original/grafana-openapi.yml#GET /datasources",
+     "openapi/_original/grafana-openapi.yml#GET /datasources/{id}",
+     "openapi/_original/grafana-openapi.yml#POST /datasources",
+     "openapi/_original/grafana-openapi.yml#PUT /datasources/{id}"
+    ]
+   },
+   "grafana-com": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection"
+    ],
+    "properties": {
+     "access": "string",
+     "basicAuth": "boolean",
+     "database": "string",
+     "id": "integer",
+     "isDefault": "boolean",
+     "jsonData": "object",
+     "name": "string",
+     "orgId": "integer",
+     "readOnly": "boolean",
+     "type": "string",
+     "typeLogoUrl": "string",
+     "typeName": "string",
+     "uid": "string",
+     "url": "string",
+     "user": "string",
+     "datasource": "object",
+     "message": "string",
+     "basicAuthUser": "string",
+     "secureJsonData": "object",
+     "withCredentials": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/grafana-com-openapi.json#GET /datasources",
+     "openapi/_original/grafana-com-openapi.json#POST /datasources"
+    ]
+   },
+   "improvado": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "name": "string",
+     "title": "string",
+     "icons": "object",
+     "categories": "array"
+    },
+    "evidence": [
+     "openapi/_original/improvado-openapi.yml#GET /api/v3/datasources"
+    ]
+   },
+   "knowi": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "createdDate": "integer",
+     "lastModDate": "integer",
+     "jsonConfig": "object",
+     "id": "integer",
+     "name": "string",
+     "datasource": "string",
+     "userId": "integer",
+     "connectorId": "integer",
+     "accessLevel": "integer",
+     "acl": "array",
+     "username": "string",
+     "proxy": "boolean",
+     "connectSchema": "boolean",
+     "directQueryOnly": "boolean",
+     "timeZone": "string",
+     "userEmail": "string",
+     "privateConnector": "string",
+     "proxyAddress": "string",
+     "dbProperties": "string",
+     "password": "string",
+     "host": "string",
+     "dbName": "string",
+     "port": "integer",
+     "legacyVersionSupport": "boolean",
+     "legacyMode": "boolean",
+     "dsDisplayName": "string"
+    },
+    "evidence": [
+     "openapi/_original/knowi-openapi.json#GET /api/2.0/datasources",
+     "openapi/_original/knowi-openapi.json#GET /api/2.0/datasources/{objectId}",
+     "openapi/_original/knowi-openapi.json#POST /api/2.0/datasources"
+    ]
+   },
+   "mode": {
+    "segments": [
+     "data_sources"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item"
+    ],
+    "properties": {
+     "pagination": "object",
+     "data_index_auth_token": "string",
+     "_links": "object",
+     "_embedded": null,
+     "id": "integer",
+     "name": "string",
+     "description": "string",
+     "token": "string",
+     "adapter": "string",
+     "created_at": "string",
+     "updated_at": "string",
+     "has_expensive_schema_updates": "boolean",
+     "public": "boolean",
+     "asleep": "boolean",
+     "queryable": "boolean",
+     "soft_deleted": "boolean",
+     "display_name": "string",
+     "account_id": "integer",
+     "account_username": "string",
+     "organization_token": "string",
+     "organization_plan_code": "string",
+     "database": "string",
+     "host": "string",
+     "port": "string",
+     "ssl": "boolean",
+     "username": "string",
+     "provider": "string",
+     "vendor": "string",
+     "ldap": "boolean",
+     "warehouse": "string",
+     "bridged": "boolean",
+     "adapter_version": "string",
+     "custom_attributes": "object",
+     "ssl_trusted_cert": "string",
+     "default_access_level": "string",
+     "password": "string",
+     "certificate": "file",
+     "key": "file",
+     "wallet": "file"
+    },
+    "evidence": [
+     "openapi/_original/mode-openapi-original.yml#GET /{workspace}/data_sources",
+     "openapi/_original/mode-openapi-original.yml#GET /{workspace}/data_sources/{data_source}",
+     "openapi/_original/mode-openapi-original.yml#PATCH /{workspace}/data_sources/{data_source}"
+    ]
+   },
+   "orion-advisor-solutions": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET item",
+     "POST collection",
+     "POST item",
+     "PUT item"
+    ],
+    "properties": {
+     "entity": "string",
+     "entityIds": "array",
+     "parameters": "array",
+     "accountInclusion": "string",
+     "enableCache": "boolean",
+     "refreshCacheIfExists": "boolean",
+     "accountsInclusionOverrides": "array",
+     "selectedEntity": "object",
+     "id": "integer",
+     "text": "string",
+     "description": "string",
+     "privilegeId": "integer",
+     "connector": "string",
+     "type": "string",
+     "setting": "object"
+    },
+    "evidence": [
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Homepage/Dashboards/DataSources/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/DataSources/{key}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Action/DataSources/{dataSourceId}",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Dashboards/DataSources",
+     "openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#PUT /v1/Homepage/Dashboards/DataSources/{key}"
+    ]
+   },
+   "perses": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "kind": "string",
+     "metadata": "object",
+     "spec": "object"
+    },
+    "evidence": [
+     "openapi/_original/perses-openapi.yml#DELETE /api/v1/projects/{projectName}/datasources/{datasourceName}",
+     "openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/datasources",
+     "openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/datasources/{datasourceName}",
+     "openapi/_original/perses-openapi.yml#POST /api/v1/projects/{projectName}/datasources",
+     "openapi/_original/perses-openapi.yml#PUT /api/v1/projects/{projectName}/datasources/{datasourceName}"
+    ]
+   },
+   "power-bi": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "id": "string",
+     "gatewayId": "string",
+     "datasourceType": "string",
+     "connectionDetails": "string",
+     "credentialType": "string",
+     "datasourceName": "string"
+    },
+    "evidence": [
+     "openapi/_original/power-bi-rest-api-openapi.yml#GET /gateways/{gatewayId}/datasources"
+    ]
+   },
+   "qliksense": {
+    "segments": [
+     "datasources",
+     "data-sources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "dataSources": "array",
+     "lastUpdated": "string",
+     "connectorNodes": "array",
+     "id": "string",
+     "name": "string",
+     "type": "string",
+     "spaceId": "string",
+     "chunking": "object",
+     "syncInfo": "object",
+     "fileConfig": "object",
+     "sourceCount": "integer",
+     "contentSummary": "object"
+    },
+    "evidence": [
+     "openapi/_original/qliksense-data-sources.json#GET /api/v1/data-sources",
+     "openapi/_original/qliksense-knowledgebases.json#DELETE /api/v1/knowledgebases/{id}/datasources/{datasourceId}",
+     "openapi/_original/qliksense-knowledgebases.json#POST /api/v1/knowledgebases/{id}/datasources",
+     "openapi/_original/qliksense-knowledgebases.json#PUT /api/v1/knowledgebases/{id}/datasources/{datasourceId}"
+    ]
+   },
+   "skai-kenshoo": {
+    "segments": [
+     "data_sources"
+    ],
+    "operations": [
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/skai-kenshoo-api-openapi.yml#POST /api/v1/incrementality/agencies/{agency_id}/data_sources",
+     "openapi/_original/skai-kenshoo-api-openapi.yml#POST /api/v2/incrementality/agencies/{agency_id}/data_sources",
+     "openapi/_original/skai-kenshoo-api-openapi.yml#PUT /api/v1/incrementality/agencies/{agency_id}/data_sources/{data_source_id}",
+     "openapi/_original/skai-kenshoo-api-openapi.yml#PUT /api/v2/incrementality/agencies/{agency_id}/data_sources/{data_source_id}",
+     "openapi/_original/skai-kenshoo-openapi-original.yml#POST /api/v1/incrementality/agencies/{agency_id}/data_sources",
+     "openapi/_original/skai-kenshoo-openapi-original.yml#POST /api/v2/incrementality/agencies/{agency_id}/data_sources",
+     "openapi/_original/skai-kenshoo-openapi-original.yml#PUT /api/v1/incrementality/agencies/{agency_id}/data_sources/{data_source_id}",
+     "openapi/_original/skai-kenshoo-openapi-original.yml#PUT /api/v2/incrementality/agencies/{agency_id}/data_sources/{data_source_id}"
+    ]
+   },
+   "tableau": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "PUT item"
+    ],
+    "properties": {
+     "pagination": "object",
+     "datasources": "object",
+     "id": "string",
+     "name": "string",
+     "description": "string",
+     "contentUrl": "string",
+     "type": "string",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "isCertified": "boolean",
+     "certificationNote": "string",
+     "useRemoteQueryAgent": "boolean",
+     "hasExtracts": "boolean",
+     "encryptExtracts": "string",
+     "project": "object",
+     "owner": "object",
+     "tags": "object"
+    },
+    "evidence": [
+     "openapi/_original/tableau-rest-api-openapi.yml#DELETE /sites/{site-id}/datasources/{datasource-id}",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/datasources",
+     "openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/datasources/{datasource-id}",
+     "openapi/_original/tableau-rest-api-openapi.yml#PUT /sites/{site-id}/datasources/{datasource-id}"
+    ]
+   },
+   "tableaux-de-bord": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "uid": "string",
+     "orgId": "integer",
+     "name": "string",
+     "type": "string",
+     "url": "string",
+     "access": "string",
+     "isDefault": "boolean",
+     "jsonData": "object",
+     "message": "string",
+     "datasource": "object",
+     "secureJsonData": "object"
+    },
+    "evidence": [
+     "openapi/_original/grafana-dashboard-openapi.yml#DELETE /datasources/{id}",
+     "openapi/_original/grafana-dashboard-openapi.yml#GET /datasources",
+     "openapi/_original/grafana-dashboard-openapi.yml#GET /datasources/{id}",
+     "openapi/_original/grafana-dashboard-openapi.yml#POST /datasources",
+     "openapi/_original/grafana-dashboard-openapi.yml#PUT /datasources/{id}"
+    ]
+   },
+   "tuva-health": {
+    "segments": [
+     "data-sources"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "data_sources": "array"
+    },
+    "evidence": [
+     "openapi/_original/tuva-health-empi-openapi-original.yml#GET /api/v1/data-sources",
+     "openapi/_original/tuva-health-empi-openapi.yml#GET /api/v1/data-sources"
+    ]
+   },
+   "visier": {
+    "segments": [
+     "data-sources"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "columnName": "string",
+     "dataType": "string",
+     "dataFormats": "array",
+     "isMandatory": "boolean",
+     "allowEmpty": "boolean",
+     "defaultValue": "string"
+    },
+    "evidence": [
+     "openapi/_original/visier-data-in-apis-openapi.yaml#GET /v1/op/data-sources"
+    ]
+   },
+   "workday-report-writer": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "id": "string",
+     "descriptor": "string",
+     "href": "string"
+    },
+    "evidence": [
+     "openapi/_original/workday-report-writer-wql-openapi.yml#GET /dataSources",
+     "openapi/_original/workday-report-writer-wql-openapi.yml#GET /dataSources/{dataSourceId}"
+    ]
+   },
+   "zoho-analytics": {
+    "segments": [
+     "datasources"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "datasourceName": "string",
+     "datasourceId": "string",
+     "source": "string",
+     "fileType": "string",
+     "lastDataSyncStatus": "string",
+     "lastDataSyncTime": "string",
+     "schedule": "string",
+     "nextScheduleTime": "string",
+     "syncUsed": "string",
+     "totalSyncAllowed": "string",
+     "syncIntervalId": "string",
+     "syncIntervals": "array",
+     "tableDetails": "array"
+    },
+    "evidence": [
+     "openapi/_original/metadata-api.json#GET /restapi/v2/workspaces/{workspace-id}/views/{view-id}/datasources"
+    ]
+   }
+  }
+ },
+ "naming": {
+  "path_segment": {
+   "lower": [
+    "activtrak",
+    "adafruit-io",
+    "adaptive-security",
+    "admob",
+    "adobe-analytics",
+    "agentum-lat",
+    "agora-data",
+    "aifordatabase",
+    "allium",
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "amazon-managed-grafana",
+    "amazon-quicksight",
+    "amex-gbt",
+    "arduino",
+    "awin-affiliate",
+    "benchmark-email",
+    "bigdata",
+    "bizapi",
+    "bloomberg",
+    "chadwin",
+    "channel99",
+    "choozle",
+    "cisco-control-hub",
+    "clarifymedical",
+    "clockify",
+    "cloud-academy",
+    "cloudkitchens",
+    "cohesity",
+    "concur",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "databook",
+    "databricks",
+    "datadog",
+    "datarails",
+    "dealogic",
+    "deluxe",
+    "disconetwork",
+    "domob",
+    "dune-analytics",
+    "eagleview",
+    "editalmd",
+    "eloqua",
+    "emailoctopus",
+    "eventscom",
+    "ezoic",
+    "factiva",
+    "fathom",
+    "fever",
+    "formlabs",
+    "fundz",
+    "geckoboard",
+    "golden",
+    "gooddata",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-campaign-manager",
+    "google-cloud",
+    "google-cloud-monitoring",
+    "google-cloud-platform-gcp",
+    "google-data-studio",
+    "google-looker",
+    "google-search-ads-360",
+    "grafana",
+    "grafana-com",
+    "graphy",
+    "greenspark",
+    "hex",
+    "holistics",
+    "hyperdx",
+    "ibisworld",
+    "improvado",
+    "insightera",
+    "ispring",
+    "jeeng",
+    "keen",
+    "kevel",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "lighthouse-travel",
+    "looker",
+    "looker-studio",
+    "loopme",
+    "marginedge",
+    "mattermark",
+    "mavenlink",
+    "mavrck",
+    "mediamath",
+    "metabase",
+    "microsoft-excel-advanced",
+    "mikmak",
+    "minubo",
+    "mode",
+    "moloco",
+    "neighbor",
+    "observeai",
+    "omni",
+    "opera",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "palantir",
+    "pdfgeneratorapi",
+    "perses",
+    "power-bi",
+    "power-query",
+    "preset",
+    "qlik-sense",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "retool",
+    "rill-data",
+    "rubicon-project",
+    "sap-bi",
+    "sap-bi-tools",
+    "sap-concur-expense",
+    "sigma-computing",
+    "signoz",
+    "silverfin",
+    "sisense",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "standard-metrics",
+    "tableau",
+    "tableaux-de-bord",
+    "tagetik",
+    "tago-io",
+    "tako",
+    "tax-reporting-templates",
+    "textql",
+    "thingsboard",
+    "thoughtspot",
+    "tiktok-ads",
+    "toggl",
+    "tooljet",
+    "tuva-health",
+    "varonis",
+    "viglink",
+    "visier",
+    "workday-report-writer",
+    "workday-reporting",
+    "zoho-analytics"
+   ],
+   "kebab-case": [
+    "adaptive-security",
+    "agentum-lat",
+    "aifordatabase",
+    "allium",
+    "amazon-quicksight",
+    "amex-gbt",
+    "arduino",
+    "benchmark-email",
+    "bigdata",
+    "chadwin",
+    "channel99",
+    "clarifymedical",
+    "clockify",
+    "cloud-academy",
+    "cloudkitchens",
+    "cohesity",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "databook",
+    "databricks",
+    "datadog",
+    "datarails",
+    "dune-analytics",
+    "eagleview",
+    "editalmd",
+    "eventscom",
+    "fever",
+    "formlabs",
+    "grafana",
+    "grafana-com",
+    "greenspark",
+    "hex",
+    "hyperdx",
+    "improvado",
+    "insightera",
+    "ispring",
+    "kevel",
+    "kibana",
+    "later",
+    "lightdash",
+    "mavrck",
+    "mediamath",
+    "moloco",
+    "observeai",
+    "omni",
+    "optimyzee",
+    "preset",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "rill-data",
+    "rubicon-project",
+    "sigma-computing",
+    "signoz",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "standard-metrics",
+    "tableau",
+    "tableaux-de-bord",
+    "textql",
+    "thingsboard",
+    "thoughtspot",
+    "tooljet",
+    "tuva-health",
+    "viglink",
+    "visier"
+   ],
+   "camelCase": [
+    "admob",
+    "adobe-analytics",
+    "agora-data",
+    "amazon-glue-databrew",
+    "amex-gbt",
+    "arduino",
+    "cisco-control-hub",
+    "cohesity",
+    "concur",
+    "creatoriq",
+    "eloqua",
+    "eventscom",
+    "ezoic",
+    "golden",
+    "gooddata",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-cloud",
+    "google-cloud-monitoring",
+    "google-cloud-platform-gcp",
+    "google-play-console",
+    "google-search-ads-360",
+    "grafana",
+    "grafana-com",
+    "hex",
+    "kevel",
+    "knowi",
+    "later",
+    "lightdash",
+    "looker-studio",
+    "marginedge",
+    "mavrck",
+    "mediamath",
+    "microsoft-excel-advanced",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "power-query",
+    "qlik-sense-enterprise",
+    "rubicon-project",
+    "sap-bi-tools",
+    "sigma-computing",
+    "signoz",
+    "sisense",
+    "skai-kenshoo",
+    "splunk-observability",
+    "tableau",
+    "thingsboard",
+    "visier",
+    "workday-report-writer"
+   ],
+   "other": [
+    "adafruit-io",
+    "admob",
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "amazon-managed-grafana",
+    "amex-gbt",
+    "chadwin",
+    "cloudwatch",
+    "creatoriq",
+    "criteo",
+    "databricks",
+    "datarails",
+    "dealogic",
+    "editalmd",
+    "eloqua",
+    "eventscom",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-data-studio",
+    "google-looker-studio",
+    "google-play-console",
+    "google-search-ads-360",
+    "grafana",
+    "grafana-com",
+    "hex",
+    "holistics",
+    "jeeng",
+    "kevel",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "looker-studio",
+    "mavrck",
+    "mediamath",
+    "microsoft-excel-advanced",
+    "mode",
+    "orion-advisor-solutions",
+    "qliksense",
+    "rill-data",
+    "sap-bi",
+    "sap-bi-tools",
+    "sigma-computing",
+    "skai-kenshoo",
+    "splunk-observability",
+    "textql",
+    "thingsboard",
+    "thoughtspot"
+   ],
+   "snake_case": [
+    "adobe-analytics",
+    "amex-gbt",
+    "arduino",
+    "constant-contact",
+    "datadog",
+    "fathom",
+    "holistics",
+    "improvado",
+    "ispring",
+    "keen",
+    "kibana",
+    "later",
+    "looker",
+    "mavenlink",
+    "mavrck",
+    "mediamath",
+    "mikmak",
+    "mode",
+    "omni",
+    "rill-data",
+    "rubicon-project",
+    "sigma-computing",
+    "signoz",
+    "silverfin",
+    "skai-kenshoo",
+    "splunk-observability",
+    "tago-io",
+    "tako",
+    "thingsboard",
+    "tiktok-ads",
+    "toggl"
+   ],
+   "PascalCase": [
+    "amazon-lookout-for-metrics",
+    "amex-gbt",
+    "benchmark-email",
+    "bloomberg",
+    "creatoriq",
+    "datadog",
+    "dealogic",
+    "eagleview",
+    "eloqua",
+    "lightdash",
+    "orion-advisor-solutions",
+    "power-bi",
+    "restaurant365",
+    "sap-bi",
+    "sap-bi-tools",
+    "slope-software",
+    "textql",
+    "varonis"
+   ]
+  },
+  "query_param": {
+   "lower": [
+    "activtrak",
+    "adafruit-io",
+    "adaptive-security",
+    "admob",
+    "adobe-analytics",
+    "agentum-lat",
+    "aifordatabase",
+    "allium",
+    "amazon-glue-databrew",
+    "amex-gbt",
+    "arduino",
+    "awin-affiliate",
+    "benchmark-email",
+    "chadwin",
+    "channel99",
+    "cisco-control-hub",
+    "clarifymedical",
+    "clockify",
+    "cloud-academy",
+    "cloudkitchens",
+    "cohesity",
+    "concur",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "databook",
+    "databricks",
+    "datadog",
+    "datarails",
+    "dealogic",
+    "disconetwork",
+    "dune-analytics",
+    "eagleview",
+    "editalmd",
+    "eloqua",
+    "emailoctopus",
+    "eventscom",
+    "factiva",
+    "fathom",
+    "fever",
+    "formlabs",
+    "fundz",
+    "golden",
+    "gooddata",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-campaign-manager",
+    "google-cloud",
+    "google-cloud-monitoring",
+    "google-cloud-platform-gcp",
+    "google-data-studio",
+    "google-looker",
+    "google-looker-studio",
+    "grafana",
+    "grafana-com",
+    "greenspark",
+    "hex",
+    "holistics",
+    "hyperdx",
+    "improvado",
+    "insightera",
+    "ispring",
+    "jeeng",
+    "keen",
+    "kevel",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "lighthouse-travel",
+    "looker",
+    "looker-studio",
+    "loopme",
+    "mattermark",
+    "mavenlink",
+    "mavrck",
+    "mediamath",
+    "metabase",
+    "mikmak",
+    "mode",
+    "moloco",
+    "neighbor",
+    "observeai",
+    "omni",
+    "opera",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "pdfgeneratorapi",
+    "perses",
+    "power-query",
+    "preset",
+    "qlik-sense",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "retool",
+    "rill-data",
+    "rubicon-project",
+    "sap-bi",
+    "sap-bi-tools",
+    "sap-concur-expense",
+    "sigma-computing",
+    "signoz",
+    "silverfin",
+    "sisense",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "standard-metrics",
+    "tableau",
+    "tableaux-de-bord",
+    "tagetik",
+    "tago-io",
+    "tako",
+    "textql",
+    "thingsboard",
+    "thoughtspot",
+    "tiktok-ads",
+    "tooljet",
+    "varonis",
+    "viglink",
+    "visier",
+    "workday-report-writer",
+    "workday-reporting"
+   ],
+   "camelCase": [
+    "activtrak",
+    "adaptive-security",
+    "admob",
+    "adobe-analytics",
+    "aifordatabase",
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "amazon-managed-grafana",
+    "amex-gbt",
+    "awin-affiliate",
+    "benchmark-email",
+    "cisco-control-hub",
+    "clarifymedical",
+    "clockify",
+    "cloudkitchens",
+    "cohesity",
+    "concur",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "datadog",
+    "dealogic",
+    "dune-analytics",
+    "eagleview",
+    "eloqua",
+    "eventscom",
+    "ezoic",
+    "golden",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-campaign-manager",
+    "google-cloud",
+    "google-cloud-platform-gcp",
+    "google-data-studio",
+    "google-looker-studio",
+    "google-play-console",
+    "grafana",
+    "grafana-com",
+    "greenspark",
+    "hex",
+    "ispring",
+    "jeeng",
+    "kevel",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "lighthouse-travel",
+    "looker-studio",
+    "loopme",
+    "marginedge",
+    "mavrck",
+    "mediamath",
+    "mikmak",
+    "minubo",
+    "observeai",
+    "omni",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "palantir",
+    "power-bi",
+    "power-query",
+    "qlik-sense",
+    "qliksense",
+    "retool",
+    "rill-data",
+    "sap-bi-tools",
+    "sap-concur-expense",
+    "sigma-computing",
+    "signoz",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "tableau",
+    "tableaux-de-bord",
+    "tagetik",
+    "tago-io",
+    "thingsboard",
+    "tooljet",
+    "viglink",
+    "visier"
+   ],
+   "snake_case": [
+    "adafruit-io",
+    "adaptive-security",
+    "adobe-analytics",
+    "agora-data",
+    "allium",
+    "amex-gbt",
+    "arduino",
+    "benchmark-email",
+    "chadwin",
+    "choozle",
+    "cloud-academy",
+    "cloudkitchens",
+    "constant-contact",
+    "creatoriq",
+    "databook",
+    "databricks",
+    "datadog",
+    "datarails",
+    "disconetwork",
+    "dune-analytics",
+    "emailoctopus",
+    "eventscom",
+    "factiva",
+    "fathom",
+    "fever",
+    "formlabs",
+    "fundz",
+    "google-analytics",
+    "google-looker",
+    "holistics",
+    "improvado",
+    "keen",
+    "kibana",
+    "later",
+    "lightdash",
+    "lighthouse-travel",
+    "looker",
+    "loopme",
+    "mattermark",
+    "mavenlink",
+    "mavrck",
+    "mediamath",
+    "mode",
+    "moloco",
+    "omni",
+    "opera",
+    "optimyzee",
+    "orion-advisor-solutions",
+    "qliksense",
+    "rubicon-project",
+    "signoz",
+    "silverfin",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "standard-metrics",
+    "tago-io",
+    "tako",
+    "textql",
+    "thoughtspot",
+    "tiktok-ads",
+    "toggl",
+    "tooljet",
+    "viglink",
+    "visier"
+   ],
+   "other": [
+    "benchmark-email",
+    "cloud-academy",
+    "creatoriq",
+    "datadog",
+    "dealogic",
+    "eloqua",
+    "emailoctopus",
+    "factiva",
+    "formlabs",
+    "google-analytics",
+    "google-cloud-monitoring",
+    "google-data-studio",
+    "holistics",
+    "ispring",
+    "jeeng",
+    "later",
+    "looker-studio",
+    "mavrck",
+    "mediamath",
+    "moloco",
+    "optimyzee",
+    "orion-advisor-solutions",
+    "power-bi",
+    "qliksense",
+    "restaurant365",
+    "rubicon-project",
+    "sap-bi",
+    "sap-bi-tools",
+    "splunk-observability",
+    "standard-metrics",
+    "tableau",
+    "tagetik",
+    "tago-io",
+    "tiktok-ads",
+    "workday-report-writer",
+    "workday-reporting"
+   ],
+   "PascalCase": [
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "benchmark-email",
+    "cloudwatch",
+    "cohesity",
+    "creatoriq",
+    "eagleview",
+    "eloqua",
+    "grafana",
+    "grafana-com",
+    "kevel",
+    "orion-advisor-solutions",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "signoz",
+    "slope-software",
+    "visier",
+    "workday-reporting",
+    "zoho-analytics"
+   ],
+   "kebab-case": [
+    "amazon-managed-grafana",
+    "clockify",
+    "criteo",
+    "dealogic",
+    "google-analytics",
+    "jeeng",
+    "sovrn",
+    "viglink"
+   ]
+  },
+  "path_param": {
+   "lower": [
+    "activtrak",
+    "adafruit-io",
+    "adaptive-security",
+    "adobe-analytics",
+    "aifordatabase",
+    "amazon-glue-databrew",
+    "amex-gbt",
+    "arduino",
+    "benchmark-email",
+    "chadwin",
+    "clarifymedical",
+    "clockify",
+    "cloud-academy",
+    "cloudkitchens",
+    "cohesity",
+    "concur",
+    "creatoriq",
+    "criteo",
+    "datadog",
+    "dealogic",
+    "dune-analytics",
+    "editalmd",
+    "eloqua",
+    "emailoctopus",
+    "eventscom",
+    "factiva",
+    "geckoboard",
+    "golden",
+    "google-analytics",
+    "google-cloud",
+    "google-cloud-platform-gcp",
+    "google-play-console",
+    "grafana",
+    "grafana-com",
+    "greenspark",
+    "hex",
+    "holistics",
+    "hyperdx",
+    "improvado",
+    "jeeng",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "mattermark",
+    "mavenlink",
+    "mavrck",
+    "mediamath",
+    "metabase",
+    "mikmak",
+    "mode",
+    "moloco",
+    "omni",
+    "opera",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "perses",
+    "preset",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "rill-data",
+    "rubicon-project",
+    "sap-concur-expense",
+    "sigma-computing",
+    "signoz",
+    "sisense",
+    "skai-kenshoo",
+    "sovrn",
+    "splunk-observability",
+    "tableaux-de-bord",
+    "tagetik",
+    "tago-io",
+    "tako",
+    "textql",
+    "thingsboard",
+    "thoughtspot",
+    "tooljet",
+    "tuva-health",
+    "viglink",
+    "visier"
+   ],
+   "camelCase": [
+    "activtrak",
+    "adaptive-security",
+    "admob",
+    "adobe-analytics",
+    "aifordatabase",
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "amazon-managed-grafana",
+    "amex-gbt",
+    "arduino",
+    "awin-affiliate",
+    "benchmark-email",
+    "channel99",
+    "cisco-control-hub",
+    "clarifymedical",
+    "clockify",
+    "cloudkitchens",
+    "cohesity",
+    "concur",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "dealogic",
+    "dune-analytics",
+    "eagleview",
+    "eloqua",
+    "eventscom",
+    "factiva",
+    "gooddata",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-campaign-manager",
+    "google-cloud-monitoring",
+    "google-data-studio",
+    "google-search-ads-360",
+    "grafana",
+    "grafana-com",
+    "greenspark",
+    "hex",
+    "ispring",
+    "keen",
+    "kibana",
+    "knowi",
+    "later",
+    "lightdash",
+    "looker-studio",
+    "marginedge",
+    "mavrck",
+    "mediamath",
+    "minubo",
+    "omni",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "pdfgeneratorapi",
+    "perses",
+    "power-bi",
+    "power-query",
+    "preset",
+    "qlik-sense",
+    "qlik-sense-enterprise",
+    "qliksense",
+    "retool",
+    "rill-data",
+    "sap-bi",
+    "sap-bi-tools",
+    "sigma-computing",
+    "signoz",
+    "skai-kenshoo",
+    "slope-software",
+    "sovrn",
+    "splunk-observability",
+    "tago-io",
+    "textql",
+    "thingsboard",
+    "tooljet",
+    "visier",
+    "workday-report-writer",
+    "workday-reporting"
+   ],
+   "snake_case": [
+    "adafruit-io",
+    "adobe-analytics",
+    "agora-data",
+    "allium",
+    "amex-gbt",
+    "arduino",
+    "chadwin",
+    "cloud-academy",
+    "constant-contact",
+    "creatoriq",
+    "databook",
+    "datadog",
+    "dune-analytics",
+    "emailoctopus",
+    "eventscom",
+    "fathom",
+    "fever",
+    "formlabs",
+    "google-looker",
+    "grafana",
+    "grafana-com",
+    "holistics",
+    "improvado",
+    "kibana",
+    "looker",
+    "mavenlink",
+    "mediamath",
+    "mode",
+    "moloco",
+    "observeai",
+    "rubicon-project",
+    "sigma-computing",
+    "signoz",
+    "silverfin",
+    "skai-kenshoo",
+    "splunk-observability",
+    "standard-metrics",
+    "tago-io",
+    "tako",
+    "thoughtspot",
+    "toggl"
+   ],
+   "PascalCase": [
+    "adobe-analytics",
+    "amazon-glue-databrew",
+    "amazon-quicksight",
+    "benchmark-email",
+    "dealogic",
+    "grafana",
+    "grafana-com",
+    "kevel",
+    "orion-advisor-solutions",
+    "slope-software",
+    "splunk-observability",
+    "tago-io"
+   ],
+   "kebab-case": [
+    "criteo",
+    "microsoft-excel-advanced",
+    "qliksense",
+    "sovrn",
+    "tableau",
+    "viglink",
+    "zoho-analytics"
+   ]
+  },
+  "pagination_param": {
+   "limit": [
+    "adafruit-io",
+    "adobe-analytics",
+    "arduino",
+    "chadwin",
+    "channel99",
+    "clockify",
+    "cloudkitchens",
+    "concur",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "cuebiq",
+    "databook",
+    "databricks",
+    "datadog",
+    "disconetwork",
+    "dune-analytics",
+    "eloqua",
+    "emailoctopus",
+    "eventscom",
+    "fathom",
+    "gooddata",
+    "grafana",
+    "grafana-com",
+    "hex",
+    "hyperdx",
+    "knowi",
+    "later",
+    "lightdash",
+    "looker",
+    "mavrck",
+    "mediamath",
+    "mikmak",
+    "optimyzee",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "qlik-sense",
+    "qliksense",
+    "rubicon-project",
+    "sap-bi",
+    "sap-concur-expense",
+    "sigma-computing",
+    "signoz",
+    "sisense",
+    "skai-kenshoo",
+    "slope-software",
+    "sovrn",
+    "splunk-observability",
+    "tableaux-de-bord",
+    "tako",
+    "textql",
+    "thingsboard",
+    "thoughtspot",
+    "viglink",
+    "visier",
+    "workday-report-writer",
+    "workday-reporting"
+   ],
+   "page": [
+    "activtrak",
+    "adobe-analytics",
+    "aifordatabase",
+    "amex-gbt",
+    "benchmark-email",
+    "clarifymedical",
+    "clockify",
+    "cohesity",
+    "constant-contact",
+    "creatoriq",
+    "cuebiq",
+    "databook",
+    "datadog",
+    "eagleview",
+    "eloqua",
+    "eventscom",
+    "fever",
+    "formlabs",
+    "fundz",
+    "gooddata",
+    "google-looker",
+    "grafana",
+    "grafana-com",
+    "holistics",
+    "improvado",
+    "kevel",
+    "kibana",
+    "later",
+    "lightdash",
+    "mattermark",
+    "mavenlink",
+    "mavrck",
+    "observeai",
+    "opera",
+    "orion-advisor-solutions",
+    "qliksense",
+    "retool",
+    "rubicon-project",
+    "sap-bi-tools",
+    "sigma-computing",
+    "signoz",
+    "silverfin",
+    "sovrn",
+    "splunk-observability",
+    "standard-metrics",
+    "tableaux-de-bord",
+    "tago-io",
+    "thingsboard",
+    "tiktok-ads",
+    "tooljet",
+    "viglink",
+    "visier"
+   ],
+   "page_size": [
+    "activtrak",
+    "adaptive-security",
+    "admob",
+    "aifordatabase",
+    "allium",
+    "benchmark-email",
+    "clockify",
+    "cloud-academy",
+    "cohesity",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "datadog",
+    "eventscom",
+    "golden",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-data-studio",
+    "google-looker-studio",
+    "google-play-console",
+    "holistics",
+    "improvado",
+    "ispring",
+    "kevel",
+    "kibana",
+    "later",
+    "lightdash",
+    "looker-studio",
+    "mavrck",
+    "omni",
+    "opera",
+    "orion-advisor-solutions",
+    "palantir",
+    "retool",
+    "rill-data",
+    "sap-bi-tools",
+    "sigma-computing",
+    "sovrn",
+    "standard-metrics",
+    "tableau",
+    "textql",
+    "thingsboard",
+    "tiktok-ads",
+    "viglink"
+   ],
+   "offset": [
+    "adobe-analytics",
+    "cisco-control-hub",
+    "concur",
+    "constant-contact",
+    "creatoriq",
+    "criteo",
+    "databricks",
+    "disconetwork",
+    "dune-analytics",
+    "eloqua",
+    "gooddata",
+    "hex",
+    "hyperdx",
+    "later",
+    "lightdash",
+    "looker",
+    "mavrck",
+    "mediamath",
+    "mikmak",
+    "oracle-essbase",
+    "orion-advisor-solutions",
+    "qliksense",
+    "sap-bi",
+    "sap-concur-expense",
+    "signoz",
+    "slope-software",
+    "splunk-observability",
+    "textql",
+    "thoughtspot",
+    "visier",
+    "workday-report-writer",
+    "workday-reporting"
+   ],
+   "cursor": [
+    "activtrak",
+    "allium",
+    "chadwin",
+    "channel99",
+    "creatoriq",
+    "dune-analytics",
+    "eventscom",
+    "golden",
+    "greenspark",
+    "kibana",
+    "lightdash",
+    "omni",
+    "optimyzee",
+    "qliksense",
+    "signoz",
+    "tako",
+    "textql"
+   ],
+   "page_token": [
+    "admob",
+    "datadog",
+    "google-admob",
+    "google-analytics",
+    "google-analytics-4",
+    "google-campaign-manager",
+    "google-cloud",
+    "google-cloud-platform-gcp",
+    "google-data-studio",
+    "google-looker-studio",
+    "google-play-console",
+    "ispring",
+    "looker-studio",
+    "palantir",
+    "rill-data",
+    "sigma-computing",
+    "textql"
+   ],
+   "count": [
+    "activtrak",
+    "amex-gbt",
+    "cohesity",
+    "creatoriq",
+    "criteo",
+    "datadog",
+    "dealogic",
+    "eagleview",
+    "eloqua",
+    "lightdash",
+    "omni",
+    "orion-advisor-solutions",
+    "sap-bi-tools",
+    "tagetik"
+   ],
+   "start": [
+    "amex-gbt",
+    "arduino",
+    "chadwin",
+    "clockify",
+    "constant-contact",
+    "grafana",
+    "grafana-com",
+    "kevel",
+    "kibana",
+    "signoz",
+    "sovrn",
+    "splunk-observability",
+    "visier"
+   ],
+   "per_page": [
+    "formlabs",
+    "google-looker",
+    "grafana",
+    "grafana-com",
+    "kibana",
+    "mattermark",
+    "mavenlink",
+    "optimyzee",
+    "signoz",
+    "silverfin",
+    "splunk-observability",
+    "tooljet"
+   ],
+   "size": [
+    "adobe-analytics",
+    "benchmark-email",
+    "clockify",
+    "creatoriq",
+    "cuebiq",
+    "datadog",
+    "eventscom",
+    "gooddata",
+    "kibana",
+    "observeai",
+    "orion-advisor-solutions"
+   ],
+   "skip": [
+    "dealogic",
+    "eloqua",
+    "orion-advisor-solutions",
+    "power-bi",
+    "qliksense",
+    "restaurant365",
+    "sap-bi",
+    "sap-bi-tools",
+    "sisense",
+    "tagetik",
+    "tago-io"
+   ],
+   "max_results": [
+    "amazon-glue-databrew",
+    "amazon-lookout-for-metrics",
+    "amazon-managed-grafana",
+    "google-analytics",
+    "google-campaign-manager",
+    "google-cloud",
+    "google-cloud-platform-gcp",
+    "orion-advisor-solutions",
+    "visier"
+   ],
+   "top": [
+    "dealogic",
+    "eloqua",
+    "mediamath",
+    "orion-advisor-solutions",
+    "power-bi",
+    "restaurant365",
+    "sap-bi",
+    "sap-bi-tools",
+    "tagetik"
+   ],
+   "starting_after": [
+    "emailoctopus",
+    "fathom",
+    "qliksense",
+    "tako"
+   ],
+   "next": [
+    "constant-contact",
+    "qlik-sense",
+    "qliksense"
+   ],
+   "after": [
+    "hex",
+    "lightdash",
+    "orion-advisor-solutions"
+   ],
+   "before": [
+    "hex",
+    "orion-advisor-solutions"
+   ]
+  },
+  "property": {
+   "lower": [
+    "adafruit-io",
+    "aifordatabase",
+    "arduino",
+    "benchmark-email",
+    "cohesity",
+    "dune-analytics",
+    "eventscom",
+    "gooddata",
+    "google-looker",
+    "grafana",
+    "grafana-com",
+    "hyperdx",
+    "improvado",
+    "knowi",
+    "lightdash",
+    "looker",
+    "metabase",
+    "mode",
+    "omni",
+    "orion-advisor-solutions",
+    "perses",
+    "power-bi",
+    "preset",
+    "qliksense",
+    "sigma-computing",
+    "signoz",
+    "sisense",
+    "splunk-observability",
+    "tableau",
+    "tableaux-de-bord",
+    "tago-io",
+    "thingsboard",
+    "workday-report-writer",
+    "zoho-analytics"
+   ],
+   "camelCase": [
+    "aifordatabase",
+    "cohesity",
+    "eventscom",
+    "grafana",
+    "grafana-com",
+    "hyperdx",
+    "knowi",
+    "later",
+    "lightdash",
+    "mavrck",
+    "omni",
+    "orion-advisor-solutions",
+    "power-bi",
+    "qliksense",
+    "sigma-computing",
+    "signoz",
+    "sisense",
+    "splunk-observability",
+    "tableau",
+    "tableaux-de-bord",
+    "thingsboard",
+    "visier",
+    "zoho-analytics"
+   ],
+   "snake_case": [
+    "adafruit-io",
+    "arduino",
+    "dune-analytics",
+    "google-looker",
+    "improvado",
+    "looker",
+    "metabase",
+    "mode",
+    "tago-io",
+    "tuva-health"
+   ],
+   "PascalCase": [
+    "amazon-quicksight"
+   ],
+   "other": [
+    "mode"
+   ]
+  }
+ }
+}

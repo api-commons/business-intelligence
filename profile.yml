@@ -1,0 +1,446 @@
+context: business-intelligence
+name: Business Intelligence
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Business Intelligence
+  - BI
+  - Data Visualization
+  - Dashboards
+  - Reporting
+  - Data Analytics
+  - Embedded Analytics
+  providers_with_harvested_openapi: 159
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates: {}
+shared_specs: {}
+concepts:
+  dashboard:
+    segments_seen:
+      dashboards: 21
+      dashboard: 10
+      workbooks: 2
+    providers_exposing: 29
+    providers_with_readable_schema: 28
+    operations:
+    - operation: GET collection
+      providers: 25
+      share: 0.862
+      tier: core
+    - operation: GET item
+      providers: 24
+      share: 0.828
+      tier: core
+    - operation: POST collection
+      providers: 18
+      share: 0.621
+      tier: core
+    - operation: DELETE item
+      providers: 16
+      share: 0.552
+      tier: core
+    - operation: UPDATE item
+      providers: 15
+      share: 0.517
+      tier: core
+    - operation: POST item
+      providers: 2
+      share: 0.069
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.034
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.034
+      tier: long-tail
+    properties:
+    - name: name
+      tier: core
+      providers: 21
+      share: 0.75
+      type: string
+      spellings:
+      - name
+      - title
+      - Name
+      - displayName
+    - name: id
+      tier: core
+      providers: 19
+      share: 0.679
+      type: string
+      spellings:
+      - id
+      - dashboard_id
+      - DashboardId
+      - uuid
+      - reportId
+      - dashboardId
+    - name: created_at
+      tier: extended
+      providers: 12
+      share: 0.429
+      type: string
+      spellings:
+      - createdAt
+      - created
+      - created_at
+      - createdDate
+    - name: description
+      tier: extended
+      providers: 12
+      share: 0.429
+      type: string
+      spellings:
+      - description
+      - desc
+    - name: updated_at
+      tier: extended
+      providers: 10
+      share: 0.357
+      type: string
+      spellings:
+      - updatedAt
+      - updated_at
+      - updated
+    - name: owner
+      tier: extended
+      providers: 8
+      share: 0.286
+      type: string
+      spellings:
+      - createdBy
+      - owner
+      - created_by
+      - ownerId
+      - creator
+    - name: tags
+      tier: extended
+      providers: 6
+      share: 0.214
+      type: array
+      spellings:
+      - tags
+    long_tail_count: 289
+    long_tail_sample:
+    - folder
+    - type
+    - user_id
+    - dashboard_name
+    - filters
+    - options
+    - org_id
+    - version
+    - widgets
+    - charts
+    - config
+    - created_time
+    - deleted
+    - deleted_at
+    - enable_csv
+    - enable_dashboard_url
+    - error
+    - formats
+    - last_updated
+    - permissions
+    - recipients
+    - reply_to
+    - scale_factor
+    - schedule
+    - slug
+    - state
+    - status
+    - subject
+    - tabs
+    - tiles
+    - uid
+    - url
+    - views
+    - access
+    - action
+    - aggregate_dashboards
+    - alpha_high
+    - alpha_low
+    - arn
+    - arrangement
+  chart:
+    segments_seen:
+      widgets: 5
+      chart: 4
+      charts: 3
+      looks: 2
+      tiles: 2
+      visualizations: 1
+      cards: 1
+      views: 1
+    providers_exposing: 17
+    providers_with_readable_schema: 15
+    operations:
+    - operation: GET collection
+      providers: 17
+      share: 1.0
+      tier: core
+    - operation: GET item
+      providers: 10
+      share: 0.588
+      tier: core
+    - operation: DELETE item
+      providers: 7
+      share: 0.412
+      tier: extended
+    - operation: POST collection
+      providers: 7
+      share: 0.412
+      tier: extended
+    - operation: UPDATE item
+      providers: 7
+      share: 0.412
+      tier: extended
+    - operation: POST item
+      providers: 2
+      share: 0.118
+      tier: long-tail
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.059
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 9
+      share: 0.6
+      type: string
+      spellings:
+      - id
+      - dashboardId
+      - uuid
+      - reportId
+    - name: name
+      tier: core
+      providers: 9
+      share: 0.6
+      type: string
+      spellings:
+      - title
+      - name
+      - displayName
+    - name: created_at
+      tier: extended
+      providers: 6
+      share: 0.4
+      type: string
+      spellings:
+      - created_at
+      - createdAt
+      - created
+    - name: description
+      tier: extended
+      providers: 6
+      share: 0.4
+      type: string
+      spellings:
+      - description
+    - name: query
+      tier: extended
+      providers: 5
+      share: 0.333
+      type: string
+      spellings:
+      - query_id
+      - query
+      - datasetId
+    - name: updated_at
+      tier: extended
+      providers: 5
+      share: 0.333
+      type: string
+      spellings:
+      - updated_at
+      - updatedAt
+    - name: chart_type
+      tier: extended
+      providers: 4
+      share: 0.267
+      type: string
+      spellings:
+      - type
+      - chartType
+    - name: parameters
+      tier: extended
+      providers: 3
+      share: 0.2
+      type: object
+      spellings:
+      - parameters
+    long_tail_count: 162
+    long_tail_sample:
+    - action_group_id
+    - community_id
+    - config
+    - css_selector
+    - deleted
+    - error
+    - initialization_rule_type
+    - options
+    - pagination
+    - position
+    - public
+    - sub_title
+    - tags
+    - target_url
+    - url_regex_rule
+    - views
+    - widget_html
+    - widget_type
+    - access
+    - auto_detect_related_detector_ids
+    - available_values
+    - cache_metadata
+    - card_event_type
+    - category
+    - chart_config
+    - chart_kind
+    - chart_name
+    - chart_uuid
+    - code
+    - col_span
+    - color_palette_token
+    - columns
+    - components
+    - connection_id
+    - content_metadata_id
+    - content_type
+    - context
+    - custom_properties
+    - dashboard_card_id
+    - dashboard_filters
+  data_source:
+    segments_seen:
+      datasources: 14
+      data-sources: 3
+      data_sources: 2
+    providers_exposing: 18
+    providers_with_readable_schema: 17
+    operations:
+    - operation: GET collection
+      providers: 16
+      share: 0.889
+      tier: core
+    - operation: GET item
+      providers: 10
+      share: 0.556
+      tier: core
+    - operation: POST collection
+      providers: 10
+      share: 0.556
+      tier: core
+    - operation: UPDATE item
+      providers: 9
+      share: 0.5
+      tier: core
+    - operation: DELETE item
+      providers: 8
+      share: 0.444
+      tier: extended
+    - operation: POST item
+      providers: 1
+      share: 0.056
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 12
+      share: 0.706
+      type: integer
+      spellings:
+      - id
+    - name: name
+      tier: core
+      providers: 9
+      share: 0.529
+      type: string
+      spellings:
+      - name
+      - title
+      - display_name
+    - name: source_type
+      tier: core
+      providers: 9
+      share: 0.529
+      type: string
+      spellings:
+      - type
+      - kind
+    - name: created_at
+      tier: extended
+      providers: 4
+      share: 0.235
+      type: string
+      spellings:
+      - createdAt
+      - createdDate
+      - created_at
+    - name: datasource
+      tier: extended
+      providers: 4
+      share: 0.235
+      type: object
+      spellings:
+      - datasource
+    - name: description
+      tier: extended
+      providers: 4
+      share: 0.235
+      type: string
+      spellings:
+      - description
+    long_tail_count: 144
+    long_tail_sample:
+    - access
+    - database
+    - is_default
+    - json_data
+    - org_id
+    - password
+    - secure_json_data
+    - uid
+    - url
+    - username
+    - basic_auth
+    - basic_auth_user
+    - datasource_name
+    - host
+    - owner
+    - pagination
+    - port
+    - read_only
+    - type_logo_url
+    - type_name
+    - updated_at
+    - user
+    - warehouse
+    - with_credentials
+    - access_control
+    - access_level
+    - account_id
+    - account_inclusion
+    - account_username
+    - accounts_inclusion_overrides
+    - acl
+    - adapter
+    - adapter_version
+    - allow_empty
+    - asleep
+    - attributes
+    - bridged
+    - case_sensitive
+    - categories
+    - certificate

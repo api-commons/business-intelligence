@@ -1,0 +1,12 @@
+provider: microsoft-excel-advanced
+apis_io: https://apis.io/providers/microsoft-excel-advanced/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  chart:
+    path_segment:
+    - charts
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/microsoft-excel-advanced-openapi.yml#GET /me/drive/items/{item-id}/workbook/worksheets/{worksheet-id}/charts

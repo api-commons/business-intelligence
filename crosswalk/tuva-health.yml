@@ -1,0 +1,13 @@
+provider: tuva-health
+apis_io: https://apis.io/providers/tuva-health/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - data-sources
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/tuva-health-empi-openapi-original.yml#GET /api/v1/data-sources
+    - openapi/_original/tuva-health-empi-openapi.yml#GET /api/v1/data-sources

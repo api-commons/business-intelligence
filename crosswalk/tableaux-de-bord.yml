@@ -1,0 +1,20 @@
+provider: tableaux-de-bord
+apis_io: https://apis.io/providers/tableaux-de-bord/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      name: name
+      source_type: type
+      datasource: datasource
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/grafana-dashboard-openapi.yml#DELETE /datasources/{id}
+    - openapi/_original/grafana-dashboard-openapi.yml#GET /datasources
+    - openapi/_original/grafana-dashboard-openapi.yml#GET /datasources/{id}
+    - openapi/_original/grafana-dashboard-openapi.yml#POST /datasources
+    - openapi/_original/grafana-dashboard-openapi.yml#PUT /datasources/{id}

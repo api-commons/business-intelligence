@@ -1,0 +1,40 @@
+provider: power-bi
+apis_io: https://apis.io/providers/power-bi/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name:
+      - displayName
+      - name
+      id: id
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /groups/{groupId}/dashboards
+    - openapi/_original/power-bi-rest-api-openapi.yml#POST /dashboards
+  chart:
+    path_segment:
+    - tiles
+    properties:
+      id:
+      - id
+      - reportId
+      name: title
+      query: datasetId
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}/tiles
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /dashboards/{dashboardId}/tiles/{tileId}
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+    core_coverage: 0.333
+    evidence:
+    - openapi/_original/power-bi-rest-api-openapi.yml#GET /gateways/{gatewayId}/datasources

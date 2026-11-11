@@ -1,0 +1,20 @@
+provider: arduino
+apis_io: https://apis.io/providers/arduino/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: name
+      id: id
+      updated_at: updated_at
+      owner: created_by
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/arduino-iot-cloud-api-openapi.yml#DELETE /iot/v2/dashboards/{id}
+    - openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v2/dashboards
+    - openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v2/dashboards/{id}
+    - openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v3/dashboards
+    - openapi/_original/arduino-iot-cloud-api-openapi.yml#GET /iot/v3/dashboards/{id}

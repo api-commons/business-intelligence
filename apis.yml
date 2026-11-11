@@ -1,0 +1,51 @@
+aid: common-business-intelligence
+name: Business Intelligence
+type: Common
+description: 'The common Business Intelligence vocabulary, distilled from the harvested OpenAPI of 159 providers
+  in APIs.io: shared operations, JSON Schema per concept with measured adoption, and a crosswalk from the common
+  names to each provider''s own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Business Intelligence
+- BI
+- Data Visualization
+- Dashboards
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-business-intelligence:business-intelligence
+  name: Common Business Intelligence Interface
+  description: The Business Intelligence interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/business-intelligence
+  tags:
+  - Business Intelligence
+  - BI
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: dashboard
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/schema/dashboard.json
+  - type: JSONSchema
+    name: chart
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/schema/chart.json
+  - type: JSONSchema
+    name: data_source
+    url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/schema/data_source.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/business-intelligence/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

@@ -1,0 +1,17 @@
+provider: gooddata
+apis_io: https://apis.io/providers/gooddata/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      source_type: type
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/gooddata-openapi.yml#DELETE /api/v1/entities/dataSources/{dataSourceId}
+    - openapi/_original/gooddata-openapi.yml#GET /api/v1/entities/dataSources
+    - openapi/_original/gooddata-openapi.yml#GET /api/v1/entities/dataSources/{dataSourceId}
+    - openapi/_original/gooddata-openapi.yml#POST /api/v1/entities/dataSources

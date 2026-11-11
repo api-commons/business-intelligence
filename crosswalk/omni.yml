@@ -1,0 +1,14 @@
+provider: omni
+apis_io: https://apis.io/providers/omni/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    properties:
+      name: name
+      description: description
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/omni-openapi-original.yml#DELETE /v2/documents/{documentId}/draft/{draftId}/dashboard

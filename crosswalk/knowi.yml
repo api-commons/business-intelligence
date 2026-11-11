@@ -1,0 +1,26 @@
+provider: knowi
+apis_io: https://apis.io/providers/knowi/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/knowi-management-api-openapi.yml#GET /dashboards
+    - openapi/_original/knowi-management-api-openapi.yml#GET /dashboards/{objectId}
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      name: name
+      created_at: createdDate
+      datasource: datasource
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/knowi-openapi.json#GET /api/2.0/datasources
+    - openapi/_original/knowi-openapi.json#GET /api/2.0/datasources/{objectId}
+    - openapi/_original/knowi-openapi.json#POST /api/2.0/datasources

@@ -1,0 +1,12 @@
+provider: visier
+apis_io: https://apis.io/providers/visier/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - data-sources
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/visier-data-in-apis-openapi.yaml#GET /v1/op/data-sources

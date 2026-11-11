@@ -1,0 +1,30 @@
+provider: mode
+apis_io: https://apis.io/providers/mode/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  chart:
+    path_segment:
+    - charts
+    properties:
+      created_at: created_at
+      updated_at: updated_at
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/mode-openapi-original.yml#GET /{account}/reports/{report}/queries/{query}/charts
+    - openapi/_original/mode-openapi-original.yml#GET /{account}/reports/{report}/queries/{query}/charts/{chart}
+  data_source:
+    path_segment:
+    - data_sources
+    properties:
+      id: id
+      name:
+      - name
+      - display_name
+      created_at: created_at
+      description: description
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/mode-openapi-original.yml#GET /{workspace}/data_sources
+    - openapi/_original/mode-openapi-original.yml#GET /{workspace}/data_sources/{data_source}
+    - openapi/_original/mode-openapi-original.yml#PATCH /{workspace}/data_sources/{data_source}

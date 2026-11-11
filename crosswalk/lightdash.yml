@@ -1,0 +1,46 @@
+provider: lightdash
+apis_io: https://apis.io/providers/lightdash/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    - dashboard
+    properties:
+      name: name
+      id: uuid
+      created_at: createdAt
+      description: description
+      updated_at: updatedAt
+      owner: owner
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/lightdash-openapi.json#DELETE /api/v2/projects/{projectUuid}/dashboards/{dashboardUuidOrSlug}
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/comments/dashboards/{dashboardUuidOrSlug}
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/code/dashboards
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/dashboards
+    - openapi/_original/lightdash-openapi.json#GET /api/v2/projects/{projectUuid}/dashboards/{dashboardUuidOrSlug}
+  chart:
+    path_segment:
+    - charts
+    - chart
+    properties:
+      id: uuid
+      name:
+      - name
+      - title
+      created_at: createdAt
+      description: description
+      updated_at: updatedAt
+      chart_type:
+      - type
+      - chartType
+      parameters: parameters
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/ee/projects/{projectUuid}/ai-deep-research/{aiDeepResearchRunUuid}/charts/{queryUuid}
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/charts
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/code/charts
+    - openapi/_original/lightdash-openapi.json#GET /api/v1/projects/{projectUuid}/explores/{exploreId}/charts
+    - openapi/_original/lightdash-openapi.json#POST /api/v1/projects/{projectUuid}/code/charts/{slug}

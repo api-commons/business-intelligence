@@ -1,0 +1,12 @@
+provider: benchmark-email
+apis_io: https://apis.io/providers/benchmark-email/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/benchmark-email-api-openapi.json#GET /api/reports/dashboard

@@ -1,0 +1,19 @@
+provider: sisense
+apis_io: https://apis.io/providers/sisense/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: title
+      created_at: created
+      description: desc
+      owner: owner
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/sisense-rest-api-openapi.yml#DELETE /dashboards/{id}
+    - openapi/_original/sisense-rest-api-openapi.yml#GET /dashboards
+    - openapi/_original/sisense-rest-api-openapi.yml#GET /dashboards/{id}
+    - openapi/_original/sisense-rest-api-openapi.yml#POST /dashboards

@@ -1,0 +1,16 @@
+provider: rubicon-project
+apis_io: https://apis.io/providers/rubicon-project/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  chart:
+    path_segment:
+    - tiles
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/rubicon-project-springserve-v0-openapi.yml#DELETE /api/v0/tiles/{id}
+    - openapi/_original/rubicon-project-springserve-v0-openapi.yml#GET /api/v0/tiles
+    - openapi/_original/rubicon-project-springserve-v0-openapi.yml#GET /api/v0/tiles/{id}
+    - openapi/_original/rubicon-project-springserve-v0-openapi.yml#POST /api/v0/tiles
+    - openapi/_original/rubicon-project-springserve-v0-openapi.yml#PUT /api/v0/tiles/{id}

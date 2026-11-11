@@ -1,0 +1,45 @@
+provider: tableau
+apis_io: https://apis.io/providers/tableau/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - workbooks
+    properties:
+      name: name
+      id: id
+      created_at: createdAt
+      description: description
+      updated_at: updatedAt
+      owner: owner
+      tags: tags
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/tableau-rest-api-openapi.yml#DELETE /sites/{site-id}/workbooks/{workbook-id}
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/projects/{project-id}/default-permissions/workbooks
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/users/{user-id}/workbooks
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks/{workbook-id}
+  chart:
+    path_segment:
+    - views
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/workbooks/{workbook-id}/views
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      name: name
+      source_type: type
+      created_at: createdAt
+      description: description
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/tableau-rest-api-openapi.yml#DELETE /sites/{site-id}/datasources/{datasource-id}
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/datasources
+    - openapi/_original/tableau-rest-api-openapi.yml#GET /sites/{site-id}/datasources/{datasource-id}
+    - openapi/_original/tableau-rest-api-openapi.yml#PUT /sites/{site-id}/datasources/{datasource-id}

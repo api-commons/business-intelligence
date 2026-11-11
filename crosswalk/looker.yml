@@ -1,0 +1,39 @@
+provider: looker
+apis_io: https://apis.io/providers/looker/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: title
+      id: id
+      created_at: created_at
+      description: description
+      updated_at: updated_at
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/looker-api-openapi.yml#DELETE /dashboards/{dashboard_id}
+    - openapi/_original/looker-api-openapi.yml#GET /dashboards
+    - openapi/_original/looker-api-openapi.yml#GET /dashboards/{dashboard_id}
+    - openapi/_original/looker-api-openapi.yml#PATCH /dashboards/{dashboard_id}
+    - openapi/_original/looker-api-openapi.yml#POST /dashboards
+  chart:
+    path_segment:
+    - looks
+    properties:
+      id: id
+      name: title
+      created_at: created_at
+      description: description
+      query:
+      - query_id
+      - query
+      updated_at: updated_at
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/looker-api-openapi.yml#DELETE /looks/{look_id}
+    - openapi/_original/looker-api-openapi.yml#GET /looks
+    - openapi/_original/looker-api-openapi.yml#GET /looks/{look_id}
+    - openapi/_original/looker-api-openapi.yml#PATCH /looks/{look_id}

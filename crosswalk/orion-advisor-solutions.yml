@@ -1,0 +1,57 @@
+provider: orion-advisor-solutions
+apis_io: https://apis.io/providers/orion-advisor-solutions/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    - dashboard
+    properties:
+      name:
+      - name
+      - title
+      id:
+      - id
+      - reportId
+      created_at: createdDate
+      description: description
+      owner: createdBy
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Homepage/Dashboards/{id}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Reporting/Dashboards/{key}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Reporting/ProcessManager/Dashboard/{key}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/{id}
+  chart:
+    path_segment:
+    - cards
+    - widgets
+    properties:
+      id: id
+      name:
+      - displayName
+      - name
+      description: description
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/User/Homepage/Assigned/Dashboards/{dashboardId}/Cards/{cardId}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/Cards/{id}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Reporting/Widgets
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Dashboards/{dashboardId}/Cards/{cardId}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#PUT /v1/Homepage/Dashboards/Cards/{id}
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      source_type: type
+      description: description
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#DELETE /v1/Homepage/Dashboards/DataSources/{key}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#GET /v1/Homepage/Dashboards/DataSources/{key}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Action/DataSources/{dataSourceId}
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#POST /v1/Homepage/Dashboards/DataSources
+    - openapi/_original/orion-advisor-solutions-orion-connect-openapi.json#PUT /v1/Homepage/Dashboards/DataSources/{key}

@@ -1,0 +1,28 @@
+provider: perses
+apis_io: https://apis.io/providers/perses/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/perses-openapi.yml#DELETE /api/v1/projects/{projectName}/dashboards/{dashboardName}
+    - openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/dashboards
+    - openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/dashboards/{dashboardName}
+    - openapi/_original/perses-openapi.yml#POST /api/v1/projects/{projectName}/dashboards
+    - openapi/_original/perses-openapi.yml#PUT /api/v1/projects/{projectName}/dashboards/{dashboardName}
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      source_type: kind
+    core_coverage: 0.333
+    evidence:
+    - openapi/_original/perses-openapi.yml#DELETE /api/v1/projects/{projectName}/datasources/{datasourceName}
+    - openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/datasources
+    - openapi/_original/perses-openapi.yml#GET /api/v1/projects/{projectName}/datasources/{datasourceName}
+    - openapi/_original/perses-openapi.yml#POST /api/v1/projects/{projectName}/datasources
+    - openapi/_original/perses-openapi.yml#PUT /api/v1/projects/{projectName}/datasources/{datasourceName}

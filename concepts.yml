@@ -1,0 +1,47 @@
+context: business-intelligence
+name: Business Intelligence
+intro: >-
+  The common BI vocabulary -- dashboards, the charts or tiles on them, the saved queries and reports
+  behind them, and the data sources they read -- distilled from the APIs that already exist.
+tags: [Business Intelligence, BI, Data Visualization, Dashboards, Reporting, Data Analytics, Embedded Analytics]
+
+envelope: [_links, _pagination, _results, data, success, errors, count, total, page, meta, links, result, results,
+           value, next, previous, has_more, message, page_info, cursor, total_count, per_page, total_pages, object]
+
+common_fields:
+  id: [uuid, guid, external_id, dashboard_id, report_id, chart_id, card_id, question_id]
+  created_at: [created, created_date, create_time, creation_time, created_on]
+  updated_at: [updated, modified_at, update_time, last_modified, updated_on]
+  name: [title, display_name]
+  description: [desc]
+  owner: [owner_id, created_by, creator, author]
+
+concepts:
+  dashboard:
+    segments: [dashboards, dashboard, boards@bi|analytics, workbooks, workbook]
+    aliases:
+      folder: [folder_id, collection_id, space_id, project_id]
+  chart:
+    segments: [charts, chart, tiles, widgets, visualizations, visualisations, cards, questions, panels, looks, views@workbooks|workbook]
+    aliases:
+      chart_type: [type, viz_type, visualization_type, display, kind]
+      query: [query_id, dataset_id, sql]
+  # bi_report was measured and dropped: 30 readable providers agree only on id; report is a word for any generated output.
+  data_source:
+    path: /data-sources
+    segments: [datasources, data_sources, data-sources, databases@bi|metabase|analytics, connections@bi|analytics|warehouses, datasets@bi|analytics|reports]
+    aliases:
+      source_type: [type, engine, database_type, kind]
+
+findings:
+  - >-
+    BI tools agree on the identity of what they hold and little else: dashboards on name and id, charts
+    on id and name, with description and created_at near 40%. The layout and the query inside are the
+    product, and each tool keeps them its own way.
+  - >-
+    Data sources agree on id, name and source_type -- the connection a dashboard reads through.
+decisions:
+  - >-
+    chart covers tiles, widgets, cards, questions, looks and panels: one visualization on a dashboard.
+  - >-
+    Reports were dropped: the word means a scheduled export at one tool and a dashboard at another.

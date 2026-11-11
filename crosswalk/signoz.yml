@@ -1,0 +1,14 @@
+provider: signoz
+apis_io: https://apis.io/providers/signoz/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      id: dashboardId
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/signoz-openapi.yml#GET /api/v1/public/dashboards/{id}
+    - openapi/_original/signoz-openapi.yml#GET /api/v2/metrics/{metric_name}/dashboards

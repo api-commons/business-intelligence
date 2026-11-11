@@ -1,0 +1,13 @@
+provider: cohesity
+apis_io: https://apis.io/providers/cohesity/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboard
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/cohesity-cluster-v1-openapi-original.yml#GET /public/dashboard
+    - openapi/_original/cohesity-cluster-v1-openapi.yml#GET /public/dashboard

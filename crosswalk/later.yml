@@ -1,0 +1,13 @@
+provider: later
+apis_io: https://apis.io/providers/later/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  chart:
+    path_segment:
+    - widgets
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/later-influence-api-openapi-original.json#GET /v1/web-plugin/widgets
+    - openapi/_original/later-influence-api-openapi.json#GET /v1/web-plugin/widgets

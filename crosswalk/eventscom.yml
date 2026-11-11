@@ -1,0 +1,51 @@
+provider: eventscom
+apis_io: https://apis.io/providers/eventscom/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties:
+      name: title
+      id: id
+      description: description
+      owner: createdBy
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v1/dashboards/{id}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/dashboards
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/dashboards/{id}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#POST /noCo/api/v1/dashboards
+    - openapi/_original/eventscom-datagol-platform-openapi.json#PUT /noCo/api/v1/dashboards/{id}
+  chart:
+    path_segment:
+    - widgets
+    properties:
+      id: id
+      name: title
+      chart_type: type
+      parameters: parameters
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v1/widgets/{widgetId}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /noCo/api/v3/workspaces/{workspaceId}/bi/{biId}/interfaces/{interfaceId}/pages/{pageId}/config/{configId}/widgets/{id}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v1/widgets/{widgetId}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v2/biPage/{pageId}/widgets
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /noCo/api/v2/workspaces/{workspaceId}/biPage/{pageId}/widgets
+  data_source:
+    path_segment:
+    - datasources
+    properties:
+      id: id
+      name: name
+      source_type: type
+      created_at: createdAt
+      description: description
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/eventscom-datagol-ai-openapi.json#POST /ai/api/v2/sqlParser/dataSources
+    - openapi/_original/eventscom-datagol-ai-openapi.yml#POST /ai/api/v2/sqlParser/dataSources
+    - openapi/_original/eventscom-datagol-platform-openapi.json#DELETE /dataSources/api/v1/dataSources/{dataSourceId}
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /catalog/api/v1/search/dataSources
+    - openapi/_original/eventscom-datagol-platform-openapi.json#GET /dataSources/api/v1/config/dataSources

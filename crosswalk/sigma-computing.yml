@@ -1,0 +1,24 @@
+provider: sigma-computing
+apis_io: https://apis.io/providers/sigma-computing/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - workbooks
+    properties:
+      name: name
+      created_at: createdAt
+      description: description
+      updated_at: updatedAt
+      owner:
+      - ownerId
+      - createdBy
+      tags: tags
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/tags/{tagId}/workbooks
+    - openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/tenants/{tenantOrganizationId}/workbooks
+    - openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/workbooks
+    - openapi/_original/sigma-computing-public-rest-api-openapi.json#GET /v2/workbooks/{workbookId}
+    - openapi/_original/sigma-computing-public-rest-api-openapi.json#POST /v2/workbooks

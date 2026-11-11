@@ -1,0 +1,19 @@
+provider: qliksense
+apis_io: https://apis.io/providers/qliksense/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  data_source:
+    path_segment:
+    - datasources
+    - data-sources
+    properties:
+      id: id
+      name: name
+      source_type: type
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/qliksense-data-sources.json#GET /api/v1/data-sources
+    - openapi/_original/qliksense-knowledgebases.json#DELETE /api/v1/knowledgebases/{id}/datasources/{datasourceId}
+    - openapi/_original/qliksense-knowledgebases.json#POST /api/v1/knowledgebases/{id}/datasources
+    - openapi/_original/qliksense-knowledgebases.json#PUT /api/v1/knowledgebases/{id}/datasources/{datasourceId}

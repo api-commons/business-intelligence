@@ -1,0 +1,19 @@
+provider: zoho-analytics
+apis_io: https://apis.io/providers/zoho-analytics/
+context: business-intelligence
+generated: '2026-11-11'
+concepts:
+  dashboard:
+    path_segment:
+    - dashboards
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/metadata-api.json#GET /restapi/v2/dashboards
+  data_source:
+    path_segment:
+    - datasources
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/metadata-api.json#GET /restapi/v2/workspaces/{workspace-id}/views/{view-id}/datasources

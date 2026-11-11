@@ -1,0 +1,235 @@
+context: business-intelligence
+generated: '2026-11-11'
+adopters:
+- provider: adafruit-io
+  apis_io: https://apis.io/providers/adafruit-io/
+  crosswalk: crosswalk/adafruit-io.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: aifordatabase
+  apis_io: https://apis.io/providers/aifordatabase/
+  crosswalk: crosswalk/aifordatabase.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: amazon-quicksight
+  apis_io: https://apis.io/providers/amazon-quicksight/
+  crosswalk: crosswalk/amazon-quicksight.yml
+  concepts:
+  - dashboard
+- provider: arduino
+  apis_io: https://apis.io/providers/arduino/
+  crosswalk: crosswalk/arduino.yml
+  concepts:
+  - dashboard
+- provider: benchmark-email
+  apis_io: https://apis.io/providers/benchmark-email/
+  crosswalk: crosswalk/benchmark-email.yml
+  concepts:
+  - dashboard
+- provider: cohesity
+  apis_io: https://apis.io/providers/cohesity/
+  crosswalk: crosswalk/cohesity.yml
+  concepts:
+  - dashboard
+- provider: dune-analytics
+  apis_io: https://apis.io/providers/dune-analytics/
+  crosswalk: crosswalk/dune-analytics.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: eventscom
+  apis_io: https://apis.io/providers/eventscom/
+  crosswalk: crosswalk/eventscom.yml
+  concepts:
+  - chart
+  - dashboard
+  - data_source
+- provider: gooddata
+  apis_io: https://apis.io/providers/gooddata/
+  crosswalk: crosswalk/gooddata.yml
+  concepts:
+  - data_source
+- provider: google-looker
+  apis_io: https://apis.io/providers/google-looker/
+  crosswalk: crosswalk/google-looker.yml
+  concepts:
+  - chart
+- provider: grafana
+  apis_io: https://apis.io/providers/grafana/
+  crosswalk: crosswalk/grafana.yml
+  concepts:
+  - dashboard
+  - data_source
+- provider: grafana-com
+  apis_io: https://apis.io/providers/grafana-com/
+  crosswalk: crosswalk/grafana-com.yml
+  concepts:
+  - dashboard
+  - data_source
+- provider: hyperdx
+  apis_io: https://apis.io/providers/hyperdx/
+  crosswalk: crosswalk/hyperdx.yml
+  concepts:
+  - dashboard
+- provider: improvado
+  apis_io: https://apis.io/providers/improvado/
+  crosswalk: crosswalk/improvado.yml
+  concepts:
+  - dashboard
+  - data_source
+- provider: knowi
+  apis_io: https://apis.io/providers/knowi/
+  crosswalk: crosswalk/knowi.yml
+  concepts:
+  - dashboard
+  - data_source
+- provider: later
+  apis_io: https://apis.io/providers/later/
+  crosswalk: crosswalk/later.yml
+  concepts:
+  - chart
+- provider: lightdash
+  apis_io: https://apis.io/providers/lightdash/
+  crosswalk: crosswalk/lightdash.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: looker
+  apis_io: https://apis.io/providers/looker/
+  crosswalk: crosswalk/looker.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: mavrck
+  apis_io: https://apis.io/providers/mavrck/
+  crosswalk: crosswalk/mavrck.yml
+  concepts:
+  - chart
+- provider: metabase
+  apis_io: https://apis.io/providers/metabase/
+  crosswalk: crosswalk/metabase.yml
+  concepts:
+  - dashboard
+- provider: microsoft-excel-advanced
+  apis_io: https://apis.io/providers/microsoft-excel-advanced/
+  crosswalk: crosswalk/microsoft-excel-advanced.yml
+  concepts:
+  - chart
+- provider: mode
+  apis_io: https://apis.io/providers/mode/
+  crosswalk: crosswalk/mode.yml
+  concepts:
+  - chart
+  - data_source
+- provider: omni
+  apis_io: https://apis.io/providers/omni/
+  crosswalk: crosswalk/omni.yml
+  concepts:
+  - dashboard
+- provider: orion-advisor-solutions
+  apis_io: https://apis.io/providers/orion-advisor-solutions/
+  crosswalk: crosswalk/orion-advisor-solutions.yml
+  concepts:
+  - chart
+  - dashboard
+  - data_source
+- provider: perses
+  apis_io: https://apis.io/providers/perses/
+  crosswalk: crosswalk/perses.yml
+  concepts:
+  - dashboard
+  - data_source
+- provider: power-bi
+  apis_io: https://apis.io/providers/power-bi/
+  crosswalk: crosswalk/power-bi.yml
+  concepts:
+  - chart
+  - dashboard
+  - data_source
+- provider: preset
+  apis_io: https://apis.io/providers/preset/
+  crosswalk: crosswalk/preset.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: qliksense
+  apis_io: https://apis.io/providers/qliksense/
+  crosswalk: crosswalk/qliksense.yml
+  concepts:
+  - data_source
+- provider: rubicon-project
+  apis_io: https://apis.io/providers/rubicon-project/
+  crosswalk: crosswalk/rubicon-project.yml
+  concepts:
+  - chart
+- provider: sigma-computing
+  apis_io: https://apis.io/providers/sigma-computing/
+  crosswalk: crosswalk/sigma-computing.yml
+  concepts:
+  - dashboard
+- provider: signoz
+  apis_io: https://apis.io/providers/signoz/
+  crosswalk: crosswalk/signoz.yml
+  concepts:
+  - dashboard
+- provider: sisense
+  apis_io: https://apis.io/providers/sisense/
+  crosswalk: crosswalk/sisense.yml
+  concepts:
+  - dashboard
+- provider: skai-kenshoo
+  apis_io: https://apis.io/providers/skai-kenshoo/
+  crosswalk: crosswalk/skai-kenshoo.yml
+  concepts:
+  - data_source
+- provider: splunk-observability
+  apis_io: https://apis.io/providers/splunk-observability/
+  crosswalk: crosswalk/splunk-observability.yml
+  concepts:
+  - chart
+  - dashboard
+- provider: tableau
+  apis_io: https://apis.io/providers/tableau/
+  crosswalk: crosswalk/tableau.yml
+  concepts:
+  - chart
+  - dashboard
+  - data_source
+- provider: tableaux-de-bord
+  apis_io: https://apis.io/providers/tableaux-de-bord/
+  crosswalk: crosswalk/tableaux-de-bord.yml
+  concepts:
+  - data_source
+- provider: tago-io
+  apis_io: https://apis.io/providers/tago-io/
+  crosswalk: crosswalk/tago-io.yml
+  concepts:
+  - dashboard
+- provider: thingsboard
+  apis_io: https://apis.io/providers/thingsboard/
+  crosswalk: crosswalk/thingsboard.yml
+  concepts:
+  - dashboard
+- provider: tuva-health
+  apis_io: https://apis.io/providers/tuva-health/
+  crosswalk: crosswalk/tuva-health.yml
+  concepts:
+  - data_source
+- provider: visier
+  apis_io: https://apis.io/providers/visier/
+  crosswalk: crosswalk/visier.yml
+  concepts:
+  - data_source
+- provider: workday-report-writer
+  apis_io: https://apis.io/providers/workday-report-writer/
+  crosswalk: crosswalk/workday-report-writer.yml
+  concepts:
+  - data_source
+- provider: zoho-analytics
+  apis_io: https://apis.io/providers/zoho-analytics/
+  crosswalk: crosswalk/zoho-analytics.yml
+  concepts:
+  - dashboard
+  - data_source
